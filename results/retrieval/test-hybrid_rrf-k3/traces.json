@@ -1,0 +1,442 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "Trong trường hợp thông thường, một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": null,
+    "query_sent": "Trong trường hợp thông thường, một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
+    "status": "ok",
+    "elapsed_ms": 28.13,
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 45,
+        "dieu": 107,
+        "evidence": "c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này."
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit_at_k": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p045:para500:c00",
+        "score": 0.03278688524590164,
+        "page": 45,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "dieu": 107,
+        "chuong": "VII",
+        "text": "a) Phải được sự đồng ý của người lao động;\nb) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;\nc) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.",
+        "supports_gold": true
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p044:para500:c01",
+        "score": 0.03125763125763126,
+        "page": 44,
+        "source_id": "blld-2019",
+        "dense_rank": 5,
+        "bm25_rank": 3,
+        "dieu": 105,
+        "chuong": "VII",
+        "text": "Chương VII\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI\nMục 1\nTHỜI GIỜ LÀM VIỆC\nĐiều 105. Thời giờ làm việc bình thường\n1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\n2. Người sử dụng lao động có quyền quy định thời giờ làm việc theo ngày hoặc tuần nhưng phải thông báo cho người lao động biết; trường hợp theo tuần thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",
+        "supports_gold": false
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p045:para500:c01",
+        "score": 0.030776515151515152,
+        "page": 45,
+        "source_id": "blld-2019",
+        "dense_rank": 6,
+        "bm25_rank": 4,
+        "dieu": 107,
+        "chuong": "VII",
+        "text": "3. Người sử dụng lao động được sử dụng người lao động làm thêm không quá 300 giờ trong 01 năm trong một số ngành, nghề, công việc hoặc trường hợp sau đây:\na) Sản xuất, gia công xuất khẩu sản phẩm hàng dệt, may, da, giày, điện, điện tử, chế biến nông, lâm, diêm nghiệp, thủy sản;\nb) Sản xuất, cung cấp điện, viễn thông, lọc dầu; cấp, thoát nước;\nc) Trường hợp giải quyết công việc đòi hỏi lao động có trình độ chuyên môn, kỹ thuật cao mà thị trường lao động không cung ứng đầy đủ, kịp thời;",
+        "supports_gold": false
+      }
+    ]
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "Nghỉ việc sau vài năm làm ở công ty thì mỗi năm làm việc được trả trợ cấp bao nhiêu?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": null,
+    "query_sent": "Nghỉ việc sau vài năm làm ở công ty thì mỗi năm làm việc được trả trợ cấp bao nhiêu?",
+    "status": "ok",
+    "elapsed_ms": 24.29,
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 21,
+        "dieu": 46,
+        "evidence": "từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương"
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hit_at_k": true,
+    "first_hit_rank": 2,
+    "reciprocal_rank": 0.5,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p021:para500:c05",
+        "score": 0.03177805800756621,
+        "page": 21,
+        "source_id": "blld-2019",
+        "dense_rank": 5,
+        "bm25_rank": 1,
+        "dieu": 47,
+        "chuong": "III",
+        "text": "Điều 47. Trợ cấp mất việc làm\n1. Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương.\n2. Thời gian làm việc để tính trợ cấp mất việc làm là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao",
+        "supports_gold": false
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p021:para500:c02",
+        "score": 0.030330882352941176,
+        "page": 21,
+        "source_id": "blld-2019",
+        "dense_rank": 8,
+        "bm25_rank": 4,
+        "dieu": 46,
+        "chuong": "III",
+        "text": "Điều 46. Trợ cấp thôi việc\n1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.",
+        "supports_gold": true
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p047:para500:c01",
+        "score": 0.028484848484848488,
+        "page": 47,
+        "source_id": "blld-2019",
+        "dense_rank": 15,
+        "bm25_rank": 6,
+        "dieu": 113,
+        "chuong": "VII",
+        "text": "Điều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.",
+        "supports_gold": false
+      }
+    ]
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "Người làm việc ban đêm được nghỉ giữa giờ ít nhất bao nhiêu phút?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": null,
+    "query_sent": "Người làm việc ban đêm được nghỉ giữa giờ ít nhất bao nhiêu phút?",
+    "status": "ok",
+    "elapsed_ms": 23.28,
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 46,
+        "dieu": 109,
+        "evidence": "làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục"
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit_at_k": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p046:para500:c00",
+        "score": 0.03252247488101534,
+        "page": 46,
+        "source_id": "blld-2019",
+        "dense_rank": 2,
+        "bm25_rank": 1,
+        "dieu": 109,
+        "chuong": "VII",
+        "text": "Mục 2\nTHỜI GIỜ NGHỈ NGƠI\nĐiều 109. Nghỉ trong giờ làm việc\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.",
+        "supports_gold": true
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p044:para500:c03",
+        "score": 0.032266458495966696,
+        "page": 44,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 3,
+        "dieu": 106,
+        "chuong": "VII",
+        "text": "Điều 106. Giờ làm việc ban đêm\nGiờ làm việc ban đêm được tính từ 22 giờ đến 06 giờ sáng ngày hôm sau.",
+        "supports_gold": false
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p042:para500:c00",
+        "score": 0.03200204813108039,
+        "page": 42,
+        "source_id": "blld-2019",
+        "dense_rank": 3,
+        "bm25_rank": 2,
+        "dieu": 98,
+        "chuong": "VI",
+        "text": "Điều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.",
+        "supports_gold": false
+      }
+    ]
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "Mỗi tháng người lao động bị khấu trừ tối đa bao nhiêu phần trăm tiền lương?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": {
+      "chuong": "VI"
+    },
+    "query_sent": "Mỗi tháng người lao động bị khấu trừ tối đa bao nhiêu phần trăm tiền lương?",
+    "status": "ok",
+    "elapsed_ms": 18.25,
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 43,
+        "dieu": 102,
+        "evidence": "3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân."
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit_at_k": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p043:para500:c06",
+        "score": 0.032266458495966696,
+        "page": 43,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 3,
+        "dieu": 102,
+        "chuong": "VI",
+        "text": "3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân.",
+        "supports_gold": true
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p043:para500:c03",
+        "score": 0.03125,
+        "page": 43,
+        "source_id": "blld-2019",
+        "dense_rank": 4,
+        "bm25_rank": 4,
+        "dieu": 101,
+        "chuong": "VI",
+        "text": "Điều 101. Tạm ứng tiền lương\n1. Người lao động được tạm ứng tiền lương theo điều kiện do hai bên thỏa thuận và không bị tính lãi.\n2. Người sử dụng lao động phải cho người lao động tạm ứng tiền lương tương ứng với số ngày người lao động tạm thời nghỉ việc để thực hiện nghĩa vụ công dân từ 01 tuần trở lên nhưng tối đa không quá 01 tháng tiền lương theo hợp đồng lao động và người lao động phải hoàn trả số tiền đã tạm ứng.",
+        "supports_gold": false
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p041:para500:c01",
+        "score": 0.030679156908665108,
+        "page": 41,
+        "source_id": "blld-2019",
+        "dense_rank": 10,
+        "bm25_rank": 1,
+        "dieu": 95,
+        "chuong": "VI",
+        "text": "3. Mỗi lần trả lương, người sử dụng lao động phải thông báo bảng kê trả lương cho người lao động, trong đó ghi rõ tiền lương, tiền lương làm thêm giờ, tiền lương làm việc vào ban đêm, nội dung và số tiền bị khấu trừ (nếu có).",
+        "supports_gold": false
+      }
+    ]
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp là bao lâu?",
+    "answerable": true,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": {
+      "chuong": "XIV"
+    },
+    "query_sent": "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp là bao lâu?",
+    "status": "ok",
+    "elapsed_ms": 26.93,
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 79,
+        "dieu": 190,
+        "evidence": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+      },
+      {
+        "source_id": "blld-2019",
+        "page": 81,
+        "dieu": 194,
+        "evidence": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm."
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit_at_k": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p081:para500:c02",
+        "score": 0.03278688524590164,
+        "page": 81,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 1,
+        "dieu": 194,
+        "chuong": "XIV",
+        "text": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.",
+        "supports_gold": true
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p079:para500:c02",
+        "score": 0.03225806451612903,
+        "page": 79,
+        "source_id": "blld-2019",
+        "dense_rank": 2,
+        "bm25_rank": 2,
+        "dieu": 190,
+        "chuong": "XIV",
+        "text": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.",
+        "supports_gold": true
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p079:para500:c01",
+        "score": 0.03149801587301587,
+        "page": 79,
+        "source_id": "blld-2019",
+        "dense_rank": 3,
+        "bm25_rank": 4,
+        "dieu": 190,
+        "chuong": "XIV",
+        "text": "Điều 190. Thời hiệu yêu cầu giải quyết tranh chấp lao động cá nhân\n1. Thời hiệu yêu cầu hòa giải viên lao động thực hiện hòa giải tranh chấp lao động cá nhân là 06 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.\n2. Thời hiệu yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp lao động cá nhân là 09 tháng kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.",
+        "supports_gold": false
+      }
+    ]
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "Người lao động mất việc được hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm tiền lương?",
+    "answerable": false,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": null,
+    "query_sent": "Người lao động mất việc được hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm tiền lương?",
+    "status": "ok",
+    "elapsed_ms": 39.65,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p022:para500:c00",
+        "score": 0.03252247488101534,
+        "page": 22,
+        "source_id": "blld-2019",
+        "dense_rank": 2,
+        "bm25_rank": 1,
+        "dieu": 47,
+        "chuong": "III",
+        "text": "động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm.\n3. Tiền lương để tính trợ cấp mất việc làm là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động mất việc làm.\n4. Chính phủ quy định chi tiết Điều này."
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p021:para500:c05",
+        "score": 0.032266458495966696,
+        "page": 21,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 3,
+        "dieu": 47,
+        "chuong": "III",
+        "text": "Điều 47. Trợ cấp mất việc làm\n1. Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương.\n2. Thời gian làm việc để tính trợ cấp mất việc làm là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao"
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p043:para500:c06",
+        "score": 0.03149801587301587,
+        "page": 43,
+        "source_id": "blld-2019",
+        "dense_rank": 3,
+        "bm25_rank": 4,
+        "dieu": 102,
+        "chuong": "VI",
+        "text": "3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân."
+      }
+    ]
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "Khi nghỉ ốm, người lao động được hưởng chế độ ốm đau tối đa bao nhiêu ngày trong một năm?",
+    "answerable": false,
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "filter": null,
+    "query_sent": "Khi nghỉ ốm, người lao động được hưởng chế độ ốm đau tối đa bao nhiêu ngày trong một năm?",
+    "status": "ok",
+    "elapsed_ms": 25.93,
+    "results": [
+      {
+        "rank": 1,
+        "id": "blld-2019:p016:para500:c05",
+        "score": 0.031099324975891997,
+        "page": 16,
+        "source_id": "blld-2019",
+        "dense_rank": 1,
+        "bm25_rank": 8,
+        "dieu": 36,
+        "chuong": "III",
+        "text": "b) Người lao động bị ốm đau, tai nạn đã điều trị 12 tháng liên tục đối với người làm việc theo hợp đồng lao động không xác định thời hạn hoặc đã điều trị"
+      },
+      {
+        "rank": 2,
+        "id": "blld-2019:p047:para500:c05",
+        "score": 0.028949545078577336,
+        "page": 47,
+        "source_id": "blld-2019",
+        "dense_rank": 2,
+        "bm25_rank": 18,
+        "dieu": 114,
+        "chuong": "VII",
+        "text": "Điều 114. Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc\nCứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động theo quy định tại khoản 1 Điều 113 của Bộ luật này được tăng thêm tương ứng 01 ngày."
+      },
+      {
+        "rank": 3,
+        "id": "blld-2019:p047:para500:c02",
+        "score": 0.028782894736842105,
+        "page": 47,
+        "source_id": "blld-2019",
+        "dense_rank": 4,
+        "bm25_rank": 16,
+        "dieu": 113,
+        "chuong": "VII",
+        "text": "2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ."
+      }
+    ]
+  }
+]

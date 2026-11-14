@@ -1,0 +1,204 @@
+[
+  {
+    "query_id": "d01",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p044:para500:c01"
+    ],
+    "note": "Đủ 08 giờ/ngày, 48 giờ/tuần (Điều 105 khoản 1); có thêm trường hợp tính theo tuần 10 giờ/ngày, đúng khoản 2.",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d02",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p012:para500:c01"
+    ],
+    "note": "Đúng 85% (Điều 26).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d03",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p047:para500:c01"
+    ],
+    "note": "Đúng 12 ngày làm việc, hưởng nguyên lương (Điều 113 khoản 1 điểm a).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d04",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p011:para500:c06"
+    ],
+    "note": "Đúng không quá 60 ngày (Điều 25 khoản 2).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d05",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p042:para500:c00"
+    ],
+    "note": "Đúng ít nhất 200% (Điều 98 khoản 1 điểm b).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d06",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p048:para500:c00"
+    ],
+    "note": "Đúng 03 ngày, hưởng nguyên lương. Thiếu ý 'phải thông báo NSDLĐ' có trong đáp án chuẩn; tôi chấm 2 vì đã trả lời đủ câu hỏi chính — CẦN BẠN XEM LẠI (có thể chấm 1). p048:c00 chỉ chứa '03 ngày', ý 'nguyên lương' nằm ở p047:c06 (không được trích).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d07",
+    "citation_support": [],
+    "citations": [],
+    "note": "Từ chối câu có đáp án. Context không có Điều 35 khoản 2 điểm d (p016:c00, c01); retriever xếp Điều 36 và trang 15, 17, 18 lên trên.",
+    "answer_grade": 0,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d08",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p009:para500:c03"
+    ],
+    "note": "Đúng không quá 36 tháng kể từ ngày hợp đồng có hiệu lực (Điều 20 khoản 1 điểm b).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d09",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p052:para500:c03"
+    ],
+    "note": "Đủ 2 trường hợp: 05 ngày cộng dồn/30 ngày hoặc 20 ngày cộng dồn/365 ngày, không có lý do chính đáng (Điều 125 khoản 4).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d10",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p057:para500:c01"
+    ],
+    "note": "Đúng 06 tháng; nghỉ trước sinh không quá 02 tháng (Điều 139 khoản 1).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d11",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p057:para500:c03",
+      "blld-2019:p057:para500:c04"
+    ],
+    "note": "Đủ 4 điều kiện: nghỉ ít nhất 04 tháng, báo trước, được NSDLĐ đồng ý, có xác nhận y tế (Điều 139 khoản 4).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d12",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p058:para500:c03"
+    ],
+    "note": "Đúng chưa đủ 18 tuổi (Điều 143 khoản 1).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d13",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p051:para500:c03"
+    ],
+    "note": "Đủ 06 tháng và 12 tháng cho vi phạm liên quan tài chính, tài sản, bí mật (Điều 123 khoản 1).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d14",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p065:para500:c04"
+    ],
+    "note": "Đúng thời hạn giấy phép lao động (Điều 155). Có thêm ý về hợp đồng của người giúp việc gia đình (Điều 162), không sai nhưng thừa.",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d15",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p067:para500:c03"
+    ],
+    "note": "Đúng nam 62 tuổi vào năm 2028, nữ 60 tuổi vào năm 2035 (Điều 169 khoản 2).",
+    "answer_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d16",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p039:para500:c05",
+      "blld-2019:p039:para500:c06"
+    ],
+    "note": "Từ chối đúng, không bịa con số; nêu đúng là Chính phủ công bố mức lương tối thiểu vùng.",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "d17",
+    "citation_support": [],
+    "citations": [],
+    "note": "Từ chối đúng, không bịa tỷ lệ; nêu đúng là thuộc pháp luật về bảo hiểm xã hội.",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  }
+]

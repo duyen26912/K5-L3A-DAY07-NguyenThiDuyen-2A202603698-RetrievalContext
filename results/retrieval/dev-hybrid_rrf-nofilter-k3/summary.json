@@ -1,0 +1,36 @@
+{
+  "method": "hybrid_rrf",
+  "split": "dev",
+  "top_k": 3,
+  "use_filter": false,
+  "query": "câu hỏi gốc (không viết lại)",
+  "n_questions": 17,
+  "n_answerable": 15,
+  "hit1": {
+    "n": 11,
+    "N": 15,
+    "rate": 0.7333
+  },
+  "evidence_hit3": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "hit@3": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "mrr@3": 0.7667,
+  "misses_at3": [
+    "d06",
+    "d07",
+    "d09"
+  ],
+  "errors": [],
+  "median_ms_per_query": 44.56,
+  "mean_ms_per_query": 45.6,
+  "init_seconds": 20.79,
+  "cost_usd": 0.0,
+  "cost_note": "chạy local (CPU + Docker), không gọi API trả phí"
+}

@@ -1,0 +1,35 @@
+{
+  "method": "bm25",
+  "split": "dev",
+  "top_k": 3,
+  "use_filter": false,
+  "query": "câu hỏi gốc (không viết lại)",
+  "n_questions": 17,
+  "n_answerable": 15,
+  "hit1": {
+    "n": 10,
+    "N": 15,
+    "rate": 0.6667
+  },
+  "evidence_hit3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.8667
+  },
+  "hit@3": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.8667
+  },
+  "mrr@3": 0.7667,
+  "misses_at3": [
+    "d07",
+    "d09"
+  ],
+  "errors": [],
+  "median_ms_per_query": 5.65,
+  "mean_ms_per_query": 5.63,
+  "init_seconds": 20.79,
+  "cost_usd": 0.0,
+  "cost_note": "chạy local (CPU + Docker), không gọi API trả phí"
+}

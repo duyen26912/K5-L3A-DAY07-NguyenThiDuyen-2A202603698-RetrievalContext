@@ -1,0 +1,795 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "Trong trường hợp thông thường, một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Trong trường hợp thông thường, số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm [blld-2019:p045:para500:c00].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p045:para500:c00"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1165,
+        "prompt_tokens": 393,
+        "output_tokens": 27
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "số giờ làm thêm tối đa trong năm của người lao động",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p045:para500:c00",
+            "score": 20.8873,
+            "page": 45,
+            "dieu": 107
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p063:para500:c06",
+            "score": 16.5832,
+            "page": 63,
+            "dieu": 155
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p045:para500:c04",
+            "score": 15.2086,
+            "page": 45,
+            "dieu": 108
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p047:para500:c05",
+            "score": 14.3553,
+            "page": 47,
+            "dieu": 114
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p059:para500:c05",
+            "score": 14.2086,
+            "page": 59,
+            "dieu": 146
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p045:para500:c00",
+          "blld-2019:p063:para500:c06",
+          "blld-2019:p045:para500:c04",
+          "blld-2019:p047:para500:c05",
+          "blld-2019:p059:para500:c05"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1573
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 892,
+        "prompt_tokens": 1090,
+        "output_tokens": 49
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p045:para500:c00",
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p045:para500:c04",
+      "blld-2019:p047:para500:c05",
+      "blld-2019:p059:para500:c05"
+    ],
+    "context": "[blld-2019:p045:para500:c00] (trang 45)\na) Phải được sự đồng ý của người lao động;\nb) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;\nc) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.\n\n[blld-2019:p063:para500:c06] (trang 63)\nĐiều 155. Thời hạn của giấy phép lao động\nThời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm.\n\n[blld-2019:p045:para500:c04] (trang 45)\nĐiều 108. Làm thêm giờ trong trường hợp đặc biệt\nNgười sử dụng lao động có quyền yêu cầu người lao động làm thêm giờ vào bất kỳ ngày nào mà không bị giới hạn về số giờ làm thêm theo quy định tại Điều 107 của Bộ luật này và người lao động không được từ chối trong trường hợp sau đây:\n1. Thực hiện lệnh động viên, huy động bảo đảm nhiệm vụ quốc phòng, an ninh theo quy định của pháp luật;\n\n[blld-2019:p047:para500:c05] (trang 47)\nĐiều 114. Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc\nCứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động theo quy định tại khoản 1 Điều 113 của Bộ luật này được tăng thêm tương ứng 01 ngày.\n\n[blld-2019:p059:para500:c05] (trang 59)\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.",
+    "context_chars": 1573,
+    "usage": {
+      "prompt": 1483,
+      "output": 76,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.06,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "Nghỉ việc sau vài năm làm ở công ty thì mỗi năm làm việc được trả trợ cấp bao nhiêu?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Khi nghỉ việc, người lao động đủ điều kiện sẽ được hưởng trợ cấp thôi việc với mức chi trả như sau:\n\n*   **Mức hưởng:** Mỗi năm làm việc được trợ cấp một nửa tháng tiền lương [blld-2019:p021:para500:c02].\n*   **Điều kiện:** Người lao động đã làm việc thường xuyên từ đủ 12 tháng trở lên cho người sử dụng lao động [blld-2019:p021:para500:c02].\n*   **Cách tính thời gian làm việc:** Là tổng thời gian làm việc thực tế trừ đi thời gian đã tham gia bảo hiểm thất nghiệp và thời gian đã được chi trả trợ cấp thôi việc, trợ cấp mất việc làm trước đó [blld-2019:p021:para500:c03].\n*   **Tiền lương để tính trợ cấp:** Là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi thôi việc [blld-2019:p021:para500:c03].\n\n**Lưu ý:** Quy định này không áp dụng đối với trường hợp người lao động đã đủ điều kiện hưởng lương hưu hoặc trường hợp đơn phương chấm dứt hợp đồng lao động trái pháp luật theo quy định tại điểm e khoản 1 Điều 36 [blld-2019:p021:para500:c02].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p021:para500:c02",
+      "blld-2019:p021:para500:c03"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1031,
+        "prompt_tokens": 395,
+        "output_tokens": 26
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "trợ cấp thôi việc mỗi năm làm việc bao nhiêu",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p021:para500:c02",
+            "score": 18.5656,
+            "page": 21,
+            "dieu": 46
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p021:para500:c03",
+            "score": 17.189,
+            "page": 21,
+            "dieu": 46
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p018:para500:c06",
+            "score": 15.8384,
+            "page": 18,
+            "dieu": 41
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p021:para500:c05",
+            "score": 15.7705,
+            "page": 21,
+            "dieu": 47
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p020:para500:c04",
+            "score": 14.8718,
+            "page": 20,
+            "dieu": 43
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p021:para500:c02",
+          "blld-2019:p021:para500:c03",
+          "blld-2019:p018:para500:c06",
+          "blld-2019:p021:para500:c05",
+          "blld-2019:p020:para500:c04"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1737
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1549,
+        "prompt_tokens": 1096,
+        "output_tokens": 326
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p021:para500:c02",
+      "blld-2019:p021:para500:c03",
+      "blld-2019:p018:para500:c06",
+      "blld-2019:p021:para500:c05",
+      "blld-2019:p020:para500:c04"
+    ],
+    "context": "[blld-2019:p021:para500:c02] (trang 21)\nĐiều 46. Trợ cấp thôi việc\n1. Khi hợp đồng lao động chấm dứt theo quy định tại các khoản 1, 2, 3, 4, 6, 7, 9 và 10 Điều 34 của Bộ luật này thì người sử dụng lao động có trách nhiệm trả trợ cấp thôi việc cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương, trừ trường hợp đủ điều kiện hưởng lương hưu theo quy định của pháp luật về bảo hiểm xã hội và trường hợp quy định tại điểm e khoản 1 Điều 36 của Bộ luật này.\n\n[blld-2019:p021:para500:c03] (trang 21)\n2. Thời gian làm việc để tính trợ cấp thôi việc là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm.\n3. Tiền lương để tính trợ cấp thôi việc là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc.\n\n[blld-2019:p018:para500:c06] (trang 18)\nSau khi được nhận lại làm việc, người lao động hoàn trả cho người sử dụng lao động các khoản tiền trợ cấp thôi việc, trợ cấp mất việc làm nếu đã nhận của người sử dụng lao động.\n\n[blld-2019:p021:para500:c05] (trang 21)\nĐiều 47. Trợ cấp mất việc làm\n1. Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương.\n2. Thời gian làm việc để tính trợ cấp mất việc làm là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao\n\n[blld-2019:p020:para500:c04] (trang 20)\n3. Người lao động bị thôi việc thì được nhận trợ cấp mất việc làm theo quy định tại Điều 47 của Bộ luật này.",
+    "context_chars": 1737,
+    "usage": {
+      "prompt": 1491,
+      "output": 352,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.58,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "Người làm việc ban đêm được nghỉ giữa giờ ít nhất bao nhiêu phút?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Người lao động làm việc ban đêm được nghỉ giữa giờ ít nhất 45 phút liên tục [blld-2019:p046:para500:c00].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p046:para500:c00"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 862,
+        "prompt_tokens": 388,
+        "output_tokens": 26
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời gian nghỉ giữa giờ người làm việc ban đêm",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p046:para500:c00",
+            "score": 26.4888,
+            "page": 46,
+            "dieu": 109
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p044:para500:c03",
+            "score": 18.8545,
+            "page": 44,
+            "dieu": 106
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p059:para500:c04",
+            "score": 17.5491,
+            "page": 59,
+            "dieu": 146
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p059:para500:c05",
+            "score": 15.4333,
+            "page": 59,
+            "dieu": 146
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p042:para500:c00",
+            "score": 15.0879,
+            "page": 42,
+            "dieu": 98
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p046:para500:c00",
+          "blld-2019:p044:para500:c03",
+          "blld-2019:p059:para500:c04",
+          "blld-2019:p059:para500:c05",
+          "blld-2019:p042:para500:c00"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1485
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 863,
+        "prompt_tokens": 1086,
+        "output_tokens": 42
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p046:para500:c00",
+      "blld-2019:p044:para500:c03",
+      "blld-2019:p059:para500:c04",
+      "blld-2019:p059:para500:c05",
+      "blld-2019:p042:para500:c00"
+    ],
+    "context": "[blld-2019:p046:para500:c00] (trang 46)\nMục 2\nTHỜI GIỜ NGHỈ NGƠI\nĐiều 109. Nghỉ trong giờ làm việc\n1. Người lao động làm việc theo thời giờ làm việc quy định tại Điều 105 của Bộ luật này từ 06 giờ trở lên trong một ngày thì được nghỉ giữa giờ ít nhất 30 phút liên tục, làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục.\nTrường hợp người lao động làm việc theo ca liên tục từ 06 giờ trở lên thì thời gian nghỉ giữa giờ được tính vào giờ làm việc.\n\n[blld-2019:p044:para500:c03] (trang 44)\nĐiều 106. Giờ làm việc ban đêm\nGiờ làm việc ban đêm được tính từ 22 giờ đến 06 giờ sáng ngày hôm sau.\n\n[blld-2019:p059:para500:c04] (trang 59)\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.\n\n[blld-2019:p059:para500:c05] (trang 59)\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.\n\n[blld-2019:p042:para500:c00] (trang 42)\nĐiều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.",
+    "context_chars": 1485,
+    "usage": {
+      "prompt": 1474,
+      "output": 68,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 1.73,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "Mỗi tháng người lao động bị khấu trừ tối đa bao nhiêu phần trăm tiền lương?",
+    "answerable": true,
+    "filter": {
+      "chuong": "VI"
+    },
+    "rerun": false,
+    "status": "answered",
+    "answer": "Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi đã trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp và thuế thu nhập cá nhân [blld-2019:p043:para500:c06].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p043:para500:c06"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 787,
+        "prompt_tokens": 404,
+        "output_tokens": 37
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "khấu trừ tiền lương tối đa bao nhiêu phần trăm chương VI Bộ luật Lao động 2019",
+        "filter": {
+          "chuong": "VI"
+        },
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 0.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p043:para500:c05",
+            "score": 21.3643,
+            "page": 43,
+            "dieu": 102
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p039:para500:c04",
+            "score": 17.3398,
+            "page": 39,
+            "dieu": 90
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p041:para500:c01",
+            "score": 16.5987,
+            "page": 41,
+            "dieu": 95
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p043:para500:c06",
+            "score": 15.1607,
+            "page": 43,
+            "dieu": 102
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p040:para500:c01",
+            "score": 13.7477,
+            "page": 40,
+            "dieu": 92
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p043:para500:c05",
+          "blld-2019:p039:para500:c04",
+          "blld-2019:p041:para500:c01",
+          "blld-2019:p043:para500:c06",
+          "blld-2019:p040:para500:c01"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1658
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1169,
+        "prompt_tokens": 1093,
+        "output_tokens": 81
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p043:para500:c05",
+      "blld-2019:p039:para500:c04",
+      "blld-2019:p041:para500:c01",
+      "blld-2019:p043:para500:c06",
+      "blld-2019:p040:para500:c01"
+    ],
+    "context": "[blld-2019:p043:para500:c05] (trang 43)\nĐiều 102. Khấu trừ tiền lương\n1. Người sử dụng lao động chỉ được khấu trừ tiền lương của người lao động để bồi thường thiệt hại do làm hư hỏng dụng cụ, thiết bị, tài sản của người sử dụng lao động theo quy định tại Điều 129 của Bộ luật này.\n2. Người lao động có quyền được biết lý do khấu trừ tiền lương của mình.\n\n[blld-2019:p039:para500:c04] (trang 39)\nChương VI\nTIỀN LƯƠNG\nĐiều 90. Tiền lương\n1. Tiền lương là số tiền mà người sử dụng lao động trả cho người lao động theo thỏa thuận để thực hiện công việc, bao gồm mức lương theo công việc hoặc chức danh, phụ cấp lương và các khoản bổ sung khác.\n2. Mức lương theo công việc hoặc chức danh không được thấp hơn mức lương tối thiểu.\n3. Người sử dụng lao động phải bảo đảm trả lương bình đẳng, không phân biệt giới tính đối với người lao động làm công việc có giá trị như nhau.\n\n[blld-2019:p041:para500:c01] (trang 41)\n3. Mỗi lần trả lương, người sử dụng lao động phải thông báo bảng kê trả lương cho người lao động, trong đó ghi rõ tiền lương, tiền lương làm thêm giờ, tiền lương làm việc vào ban đêm, nội dung và số tiền bị khấu trừ (nếu có).\n\n[blld-2019:p043:para500:c06] (trang 43)\n3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân.\n\n[blld-2019:p040:para500:c01] (trang 40)\nĐiều 92. Hội đồng tiền lương quốc gia\n1. Hội đồng tiền lương quốc gia là cơ quan tư vấn cho Chính phủ về mức lương tối thiểu và chính sách tiền lương đối với người lao động.\n2. Thủ tướng Chính phủ thành lập Hội đồng tiền lương quốc gia bao gồm các thành viên là đại diện của Bộ Lao động - Thương binh và Xã hội, Tổng Liên đoàn Lao động Việt Nam, một số tổ chức đại diện người sử dụng lao động ở trung ương và chuyên gia độc lập.",
+    "context_chars": 1658,
+    "usage": {
+      "prompt": 1497,
+      "output": 118,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 1.96,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp là bao lâu?",
+    "answerable": true,
+    "filter": {
+      "chuong": "XIV"
+    },
+    "rerun": false,
+    "status": "answered",
+    "answer": "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động được quy định như sau:\n\n*   **Đối với tranh chấp lao động cá nhân:** Thời hiệu là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm [blld-2019:p079:para500:c02].\n*   **Đối với tranh chấp lao động tập thể về quyền:** Thời hiệu là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm [blld-2019:p081:para500:c02].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p079:para500:c02",
+      "blld-2019:p081:para500:c02"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 969,
+        "prompt_tokens": 402,
+        "output_tokens": 31
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động chương XIV",
+        "filter": {
+          "chuong": "XIV"
+        },
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 0.9,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p081:para500:c00",
+            "score": 27.4356,
+            "page": 81,
+            "dieu": 193
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p081:para500:c02",
+            "score": 27.2152,
+            "page": 81,
+            "dieu": 194
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p079:para500:c02",
+            "score": 27.0246,
+            "page": 79,
+            "dieu": 190
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p072:para500:c04",
+            "score": 26.2123,
+            "page": 72,
+            "dieu": 179
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p078:para500:c03",
+            "score": 24.9098,
+            "page": 78,
+            "dieu": 189
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p081:para500:c00",
+          "blld-2019:p081:para500:c02",
+          "blld-2019:p079:para500:c02",
+          "blld-2019:p072:para500:c04",
+          "blld-2019:p078:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1178
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 943,
+        "prompt_tokens": 984,
+        "output_tokens": 154
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p081:para500:c00",
+      "blld-2019:p081:para500:c02",
+      "blld-2019:p079:para500:c02",
+      "blld-2019:p072:para500:c04",
+      "blld-2019:p078:para500:c03"
+    ],
+    "context": "[blld-2019:p081:para500:c00] (trang 81)\ntrọng tài lao động không ra quyết định giải quyết tranh chấp thì các bên có quyền yêu cầu Tòa án giải quyết.\n6. Trường hợp một trong các bên không thi hành quyết định giải quyết tranh chấp của Ban trọng tài lao động thì các bên có quyền yêu cầu Tòa án giải quyết.\n\n[blld-2019:p081:para500:c02] (trang 81)\n3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm.\n\n[blld-2019:p079:para500:c02] (trang 79)\n3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm.\n\n[blld-2019:p072:para500:c04] (trang 72)\nChương XIV\nGIẢI QUYẾT TRANH CHẤP LAO ĐỘNG\nMục 1\nNHỮNG QUY ĐỊNH CHUNG\nVỀ GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG\nĐiều 179. Tranh chấp lao động\n\n[blld-2019:p078:para500:c03] (trang 78)\nĐiều 189. Giải quyết tranh chấp lao động cá nhân của Hội đồng trọng tài lao động\n1. Trên cơ sở đồng thuận, các bên tranh chấp có quyền yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp trong trường hợp quy định tại khoản 7 Điều 188 của Bộ luật này. Khi yêu cầu Hội đồng trọng tài lao động giải quyết tranh chấp, các bên không được đồng thời yêu cầu Tòa án giải quyết, trừ trường hợp quy định tại khoản 4 Điều này.",
+    "context_chars": 1178,
+    "usage": {
+      "prompt": 1386,
+      "output": 185,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 1.91,
+    "context_has_evidence": true
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "Người lao động mất việc được hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm tiền lương?",
+    "answerable": false,
+    "filter": null,
+    "rerun": false,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn tài liệu từ Bộ luật Lao động 2019 được tìm thấy chỉ quy định về \"trợ cấp mất việc làm\" và \"trợ cấp thôi việc\" do người sử dụng lao động chi trả, không quy định về tỷ lệ phần trăm tiền lương cho \"trợ cấp thất nghiệp\" hằng tháng (đây là nội dung thuộc Luật Việc làm).",
+    "answer_source": "model",
+    "citations": [],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 710,
+        "prompt_tokens": 395,
+        "output_tokens": 31
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm tiền lương",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.8,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p022:para500:c00",
+            "score": 21.825,
+            "page": 22,
+            "dieu": 47
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p043:para500:c06",
+            "score": 21.2828,
+            "page": 43,
+            "dieu": 102
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p021:para500:c03",
+            "score": 20.6628,
+            "page": 21,
+            "dieu": 46
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p042:para500:c00",
+            "score": 18.0733,
+            "page": 42,
+            "dieu": 98
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p021:para500:c05",
+            "score": 17.4293,
+            "page": 21,
+            "dieu": 47
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p022:para500:c00",
+          "blld-2019:p043:para500:c06",
+          "blld-2019:p021:para500:c03",
+          "blld-2019:p042:para500:c00",
+          "blld-2019:p021:para500:c05"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 2003
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 3463,
+        "prompt_tokens": 1171,
+        "output_tokens": 89
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p022:para500:c00",
+      "blld-2019:p043:para500:c06",
+      "blld-2019:p021:para500:c03",
+      "blld-2019:p042:para500:c00",
+      "blld-2019:p021:para500:c05"
+    ],
+    "context": "[blld-2019:p022:para500:c00] (trang 22)\nđộng đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm.\n3. Tiền lương để tính trợ cấp mất việc làm là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động mất việc làm.\n4. Chính phủ quy định chi tiết Điều này.\n\n[blld-2019:p043:para500:c06] (trang 43)\n3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân.\n\n[blld-2019:p021:para500:c03] (trang 21)\n2. Thời gian làm việc để tính trợ cấp thôi việc là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao động đã tham gia bảo hiểm thất nghiệp theo quy định của pháp luật về bảo hiểm thất nghiệp và thời gian làm việc đã được người sử dụng lao động chi trả trợ cấp thôi việc, trợ cấp mất việc làm.\n3. Tiền lương để tính trợ cấp thôi việc là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc.\n\n[blld-2019:p042:para500:c00] (trang 42)\nĐiều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.\n\n[blld-2019:p021:para500:c05] (trang 21)\nĐiều 47. Trợ cấp mất việc làm\n1. Người sử dụng lao động trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên cho mình từ đủ 12 tháng trở lên mà bị mất việc làm theo quy định tại khoản 11 Điều 34 của Bộ luật này, cứ mỗi năm làm việc trả 01 tháng tiền lương nhưng ít nhất bằng 02 tháng tiền lương.\n2. Thời gian làm việc để tính trợ cấp mất việc làm là tổng thời gian người lao động đã làm việc thực tế cho người sử dụng lao động trừ đi thời gian người lao",
+    "context_chars": 2003,
+    "usage": {
+      "prompt": 1566,
+      "output": 120,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 4.18
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "Khi nghỉ ốm, người lao động được hưởng chế độ ốm đau tối đa bao nhiêu ngày trong một năm?",
+    "answerable": false,
+    "filter": null,
+    "rerun": false,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 không quy định cụ thể về số ngày tối đa được hưởng chế độ ốm đau trong một năm. Các văn bản được tìm kiếm chỉ đề cập đến quyền được nghỉ theo chế độ [blld-2019:p003:para500:c05], thời hạn giấy phép lao động [blld-2019:p063:para500:c06], hoặc các quy định về lương hưu [blld-2019:p090:para500:c01], [blld-2019:p091:para500:c03]. Nội dung này thường được quy định trong Luật Bảo hiểm xã hội.",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p003:para500:c05",
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p090:para500:c01",
+      "blld-2019:p091:para500:c03"
+    ],
+    "invalid_citations": [],
+    "parser_version": 3,
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 732,
+        "prompt_tokens": 399,
+        "output_tokens": 35
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "người lao động được hưởng chế độ ốm đau tối đa bao nhiêu ngày trong một năm",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p063:para500:c06",
+            "score": 19.3662,
+            "page": 63,
+            "dieu": 155
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p003:para500:c05",
+            "score": 16.459,
+            "page": 3,
+            "dieu": 5
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p057:para500:c06",
+            "score": 15.7543,
+            "page": 57,
+            "dieu": 141
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p090:para500:c01",
+            "score": 15.2398,
+            "page": 90,
+            "dieu": 219
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p091:para500:c03",
+            "score": 14.1157,
+            "page": 91,
+            "dieu": 219
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p063:para500:c06",
+          "blld-2019:p003:para500:c05",
+          "blld-2019:p057:para500:c06",
+          "blld-2019:p090:para500:c01",
+          "blld-2019:p091:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1649
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1375,
+        "prompt_tokens": 1118,
+        "output_tokens": 178
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p003:para500:c05",
+      "blld-2019:p057:para500:c06",
+      "blld-2019:p090:para500:c01",
+      "blld-2019:p091:para500:c03"
+    ],
+    "context": "[blld-2019:p063:para500:c06] (trang 63)\nĐiều 155. Thời hạn của giấy phép lao động\nThời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm.\n\n[blld-2019:p003:para500:c05] (trang 3)\nb) Hưởng lương phù hợp với trình độ, kỹ năng nghề trên cơ sở thỏa thuận với người sử dụng lao động; được bảo hộ lao động, làm việc trong điều kiện bảo đảm về an toàn, vệ sinh lao động; nghỉ theo chế độ, nghỉ hằng năm có hưởng lương và được hưởng phúc lợi tập thể;\n\n[blld-2019:p057:para500:c06] (trang 57)\nĐiều 141. Trợ cấp trong thời gian chăm sóc con ốm đau, thai sản và thực hiện các biện pháp tránh thai\nThời gian nghỉ việc khi chăm sóc con dưới 07 tuổi ốm đau, khám thai, sẩy thai, nạo, hút thai, thai chết lưu, phá thai bệnh lý, thực hiện các biện pháp tránh thai,\n\n[blld-2019:p090:para500:c01] (trang 90)\nc) Người lao động có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu của người lao động quy định tại khoản 2 Điều 169 của Bộ luật Lao động và có đủ 15 năm làm công việc khai thác than trong hầm lò;\nd) Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao.\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên được hưởng lương hưu khi thuộc một trong các trường hợp sau đây:\n\n[blld-2019:p091:para500:c03] (trang 91)\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây:\na) Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động;",
+    "context_chars": 1649,
+    "usage": {
+      "prompt": 1517,
+      "output": 213,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.11
+  }
+]

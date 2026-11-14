@@ -1,0 +1,85 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p045:para500:c00"
+    ],
+    "note": "Đúng không quá 200 giờ/năm trong trường hợp thông thường (Điều 107 khoản 2 điểm c). Context có p045:c00 chứa đủ evidence.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p021:para500:c02"
+    ],
+    "note": "Đúng: mỗi năm làm việc một nửa tháng tiền lương, điều kiện đủ 12 tháng, có nêu 2 ngoại lệ (Điều 46 khoản 1). Lưu ý: model diễn giải điểm e khoản 1 Điều 36 là 'tự ý bỏ việc 05 ngày làm việc liên tục'; nội dung này đúng với luật nhưng KHÔNG có trong chunk được trích (kiến thức ngoài context) — CẦN BẠN XEM LẠI.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p046:para500:c00"
+    ],
+    "note": "Đúng 45 phút liên tục (Điều 109 khoản 1). Không nêu điều kiện 'từ 06 giờ trở lên' nhưng không ảnh hưởng ý chính.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [
+      false
+    ],
+    "citations": [
+      "blld-2019:p043:para500:c03"
+    ],
+    "note": "Nội dung đúng và đủ: không quá 30% tiền lương thực trả sau khi trích nộp BHXH, BHYT, BHTN, thuế TNCN (Điều 102 khoản 3). NHƯNG citation SAI: trích p043:c03 (Điều 101, tạm ứng tiền lương), không chứa thông tin này; chunk đúng p043:c06 có trong context nhưng không được trích. Tôi chấm answer 2 + citation false — CẦN BẠN XEM LẠI (có thể chấm 1 nếu coi câu trả lời không được nguồn hỗ trợ là chưa grounded).",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [
+      true,
+      false
+    ],
+    "citations": [
+      "blld-2019:p079:para500:c02",
+      "blld-2019:p081:para500:c01"
+    ],
+    "note": "Đúng một phần: tranh chấp cá nhân 01 năm (Điều 190, p079:c02 hỗ trợ). SAI phần tranh chấp tập thể về quyền: model nói không có quy định, thực tế là 01 năm (Điều 194 khoản 3, p081:c02 — không có trong context). Citation p081:c01 chỉ chứa khoản 1-2 (hòa giải 06 tháng, trọng tài 09 tháng), không hỗ trợ kết luận 'không quy định'. Context 1: có evidence phần cá nhân, thiếu phần tập thể. Trước parser v3 câu này bị xếp nhầm thành abstain.",
+    "answer_grade": 1,
+    "context_grade": 1,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t06",
+    "citation_support": [],
+    "citations": [],
+    "note": "Từ chối đúng, không bịa tỷ lệ; nêu đúng là thuộc Luật Việc làm.",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t07",
+    "citation_support": [],
+    "citations": [],
+    "note": "Từ chối đúng, không bịa số ngày; nêu thuộc Luật Bảo hiểm xã hội.",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  }
+]

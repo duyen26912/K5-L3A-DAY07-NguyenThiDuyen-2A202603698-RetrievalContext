@@ -1,0 +1,2222 @@
+[
+  {
+    "query_id": "d01",
+    "split": "dev",
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ trong một ngày và một tuần?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Thời giờ làm việc bình thường được quy định như sau:\n\n*   **Theo ngày:** Không quá 08 giờ trong 01 ngày [blld-2019:p044:para500:c01].\n*   **Theo tuần:** Không quá 48 giờ trong 01 tuần [blld-2019:p044:para500:c01].\n\n**Trường hợp ngoại lệ:**\n*   Nếu người sử dụng lao động quy định thời giờ làm việc theo tuần, thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần [blld-2019:p044:para500:c01].\n*   Đối với người chưa thành niên có quy định riêng:\n    *   Người từ đủ 15 tuổi đến chưa đủ 18 tuổi: Không quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần [blld-2019:p059:para500:c05].\n    *   Người chưa đủ 15 tuổi: Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần [blld-2019:p059:para500:c04].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p044:para500:c01",
+      "blld-2019:p059:para500:c05",
+      "blld-2019:p059:para500:c04"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 3343,
+        "prompt_tokens": 392,
+        "output_tokens": 28
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời giờ làm việc bình thường trong một ngày và một tuần",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.2,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p044:para500:c01",
+            "score": 30.5477,
+            "page": 44,
+            "dieu": 105
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p045:para500:c00",
+            "score": 24.783,
+            "page": 45,
+            "dieu": 107
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p041:para500:c03",
+            "score": 22.1851,
+            "page": 41,
+            "dieu": 97
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p059:para500:c05",
+            "score": 20.4008,
+            "page": 59,
+            "dieu": 146
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p059:para500:c04",
+            "score": 19.1756,
+            "page": 59,
+            "dieu": 146
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p044:para500:c01",
+          "blld-2019:p045:para500:c00",
+          "blld-2019:p041:para500:c03",
+          "blld-2019:p059:para500:c05",
+          "blld-2019:p059:para500:c04"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1844
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 6321,
+        "prompt_tokens": 1190,
+        "output_tokens": 306
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p044:para500:c01",
+      "blld-2019:p045:para500:c00",
+      "blld-2019:p041:para500:c03",
+      "blld-2019:p059:para500:c05",
+      "blld-2019:p059:para500:c04"
+    ],
+    "context": "[blld-2019:p044:para500:c01] (trang 44)\nChương VII\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI\nMục 1\nTHỜI GIỜ LÀM VIỆC\nĐiều 105. Thời giờ làm việc bình thường\n1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\n2. Người sử dụng lao động có quyền quy định thời giờ làm việc theo ngày hoặc tuần nhưng phải thông báo cho người lao động biết; trường hợp theo tuần thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\n\n[blld-2019:p045:para500:c00] (trang 45)\na) Phải được sự đồng ý của người lao động;\nb) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;\nc) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.\n\n[blld-2019:p041:para500:c03] (trang 41)\nĐiều 97. Kỳ hạn trả lương\n1. Người lao động hưởng lương theo giờ, ngày, tuần thì được trả lương sau giờ, ngày, tuần làm việc hoặc được trả gộp do hai bên thỏa thuận nhưng không quá 15 ngày phải được trả gộp một lần.\n2. Người lao động hưởng lương theo tháng được trả một tháng một lần hoặc nửa tháng một lần. Thời điểm trả lương do hai bên thỏa thuận và phải được ấn định vào một thời điểm có tính chu kỳ.\n\n[blld-2019:p059:para500:c05] (trang 59)\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ trong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong một số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.\n\n[blld-2019:p059:para500:c04] (trang 59)\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.",
+    "context_chars": 1844,
+    "usage": {
+      "prompt": 1582,
+      "output": 334,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 9.67,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d02",
+    "split": "dev",
+    "question": "Tiền lương trong thời gian thử việc ít nhất phải bằng bao nhiêu phần trăm mức lương của công việc đó?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Tiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó [blld-2019:p012:para500:c01].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p012:para500:c01"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_error",
+        "code": 503,
+        "message": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+        "attempt": 1,
+        "elapsed_ms": 1526
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1263,
+        "prompt_tokens": 396,
+        "output_tokens": 23
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "tiền lương trong thời gian thử việc",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p012:para500:c01",
+            "score": 21.3571,
+            "page": 12,
+            "dieu": 26
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p012:para500:c02",
+            "score": 14.7807,
+            "page": 12,
+            "dieu": 27
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p012:para500:c03",
+            "score": 14.0185,
+            "page": 12,
+            "dieu": 27
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p011:para500:c04",
+            "score": 13.6525,
+            "page": 11,
+            "dieu": 24
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p011:para500:c05",
+            "score": 12.325,
+            "page": 11,
+            "dieu": 25
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p012:para500:c01",
+          "blld-2019:p012:para500:c02",
+          "blld-2019:p012:para500:c03",
+          "blld-2019:p011:para500:c04",
+          "blld-2019:p011:para500:c05"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1666
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 22680,
+        "prompt_tokens": 1065,
+        "output_tokens": 55
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p012:para500:c01",
+      "blld-2019:p012:para500:c02",
+      "blld-2019:p012:para500:c03",
+      "blld-2019:p011:para500:c04",
+      "blld-2019:p011:para500:c05"
+    ],
+    "context": "[blld-2019:p012:para500:c01] (trang 12)\nĐiều 26. Tiền lương thử việc\nTiền lương của người lao động trong thời gian thử việc do hai bên thỏa thuận nhưng ít nhất phải bằng 85% mức lương của công việc đó.\n\n[blld-2019:p012:para500:c02] (trang 12)\nĐiều 27. Kết thúc thời gian thử việc\n1. Khi kết thúc thời gian thử việc, người sử dụng lao động phải thông báo kết quả thử việc cho người lao động.\nTrường hợp thử việc đạt yêu cầu thì người sử dụng lao động tiếp tục thực hiện hợp đồng lao động đã giao kết đối với trường hợp thỏa thuận thử việc trong hợp đồng lao động hoặc phải giao kết hợp đồng lao động đối với trường hợp giao kết hợp đồng thử việc.\n\n[blld-2019:p012:para500:c03] (trang 12)\nTrường hợp thử việc không đạt yêu cầu thì chấm dứt hợp đồng lao động đã giao kết hoặc hợp đồng thử việc.\n2. Trong thời gian thử việc, mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc hợp đồng lao động đã giao kết mà không cần báo trước và không phải bồi thường.\n\n[blld-2019:p011:para500:c04] (trang 11)\nĐiều 24. Thử việc\n1. Người sử dụng lao động và người lao động có thể thỏa thuận nội dung thử việc ghi trong hợp đồng lao động hoặc thỏa thuận về thử việc bằng việc giao kết hợp đồng thử việc.\n2. Nội dung chủ yếu của hợp đồng thử việc gồm thời gian thử việc và nội dung quy định tại các điểm a, b, c, đ, g và h khoản 1 Điều 21 của Bộ luật này.\n3. Không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng.\n\n[blld-2019:p011:para500:c05] (trang 11)\nĐiều 25. Thời gian thử việc\nThời gian thử việc do hai bên thỏa thuận căn cứ vào tính chất và mức độ phức tạp của công việc nhưng chỉ được thử việc một lần đối với một công việc và bảo đảm điều kiện sau đây:\n1. Không quá 180 ngày đối với công việc của người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp, Luật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;",
+    "context_chars": 1666,
+    "usage": {
+      "prompt": 1461,
+      "output": 78,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 30.47,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d03",
+    "split": "dev",
+    "question": "Làm đủ một năm cho công ty trong điều kiện bình thường thì được nghỉ phép có lương mấy ngày?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động trong điều kiện bình thường thì được nghỉ hằng năm 12 ngày làm việc và được hưởng nguyên lương theo hợp đồng lao động [blld-2019:p047:para500:c01].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p047:para500:c01"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 44211,
+        "prompt_tokens": 394,
+        "output_tokens": 30
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "số ngày nghỉ phép năm theo Bộ luật Lao động 2019",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p047:para500:c05",
+            "score": 17.6184,
+            "page": 47,
+            "dieu": 114
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p047:para500:c02",
+            "score": 16.3075,
+            "page": 47,
+            "dieu": 113
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p047:para500:c04",
+            "score": 15.0301,
+            "page": 47,
+            "dieu": 113
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p001:para500:c00",
+            "score": 14.3737,
+            "page": 1,
+            "dieu": null
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p093:para500:c01",
+            "score": 13.8872,
+            "page": 93,
+            "dieu": 220
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p047:para500:c05",
+          "blld-2019:p047:para500:c02",
+          "blld-2019:p047:para500:c04",
+          "blld-2019:p001:para500:c00",
+          "blld-2019:p093:para500:c01"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1418
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 992,
+        "prompt_tokens": 1057,
+        "output_tokens": 34
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "người lao động làm việc trong điều kiện bình thường được nghỉ phép năm bao nhiêu ngày?",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 3.0,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p047:para500:c01",
+            "score": 20.9659,
+            "page": 47,
+            "dieu": 113
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p045:para500:c00",
+            "score": 18.4097,
+            "page": 45,
+            "dieu": 107
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p067:para500:c03",
+            "score": 18.352,
+            "page": 67,
+            "dieu": 169
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p044:para500:c01",
+            "score": 18.1893,
+            "page": 44,
+            "dieu": 105
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p067:para500:c04",
+            "score": 16.6204,
+            "page": 67,
+            "dieu": 169
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p047:para500:c01",
+          "blld-2019:p045:para500:c00",
+          "blld-2019:p067:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [
+          "blld-2019:p044:para500:c01",
+          "blld-2019:p067:para500:c04"
+        ],
+        "context_chars_after": 2753
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1085,
+        "prompt_tokens": 1627,
+        "output_tokens": 67
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "blld-2019:p047:para500:c05",
+      "blld-2019:p047:para500:c02",
+      "blld-2019:p047:para500:c04",
+      "blld-2019:p001:para500:c00",
+      "blld-2019:p093:para500:c01",
+      "blld-2019:p047:para500:c01",
+      "blld-2019:p045:para500:c00",
+      "blld-2019:p067:para500:c03"
+    ],
+    "context": "[blld-2019:p047:para500:c05] (trang 47)\nĐiều 114. Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc\nCứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động theo quy định tại khoản 1 Điều 113 của Bộ luật này được tăng thêm tương ứng 01 ngày.\n\n[blld-2019:p047:para500:c02] (trang 47)\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n[blld-2019:p047:para500:c04] (trang 47)\n6. Khi nghỉ hằng năm, nếu người lao động đi bằng các phương tiện đường bộ, đường sắt, đường thủy mà số ngày đi đường cả đi và về trên 02 ngày thì từ ngày thứ 03 trở đi được tính thêm thời gian đi đường ngoài ngày nghỉ hằng năm và chỉ được tính cho 01 lần nghỉ trong năm.\n7. Chính phủ quy định chi tiết điều này.\n\n[blld-2019:p001:para500:c00] (trang 1)\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nBộ luật số: 45/2019/QH14\n\n[blld-2019:p093:para500:c01] (trang 93)\n3. Chế độ lao động đối với cán bộ, công chức, viên chức, người thuộc lực lượng Quân đội nhân dân, Công an nhân dân, tổ chức xã hội, xã viên hợp tác xã, người làm việc không có quan hệ lao động do các văn bản pháp luật khác quy định nhưng tùy từng đối tượng mà được áp dụng một số quy định trong Bộ luật này.\nBộ luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 8 thông qua ngày 20 tháng 11 năm 2019./.\n\n[blld-2019:p047:para500:c01] (trang 47)\nĐiều 113. Nghỉ hằng năm\n1. Người lao động làm việc đủ 12 tháng cho một người sử dụng lao động thì được nghỉ hằng năm, hưởng nguyên lương theo hợp đồng lao động như sau:\na) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;\nb) 14 ngày làm việc đối với người lao động chưa thành niên, lao động là người khuyết tật, người làm nghề, công việc nặng nhọc, độc hại, nguy hiểm;\nc) 16 ngày làm việc đối với người làm nghề, công việc đặc biệt nặng nhọc, độc hại, nguy hiểm.\n\n[blld-2019:p045:para500:c00] (trang 45)\na) Phải được sự đồng ý của người lao động;\nb) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày; trường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số giờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;\nc) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này.\n\n[blld-2019:p067:para500:c03] (trang 67)\nĐiều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ tuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.",
+    "context_chars": 2753,
+    "usage": {
+      "prompt": 3078,
+      "output": 131,
+      "thoughts": 0,
+      "llm_calls": 3
+    },
+    "elapsed_s": 46.29,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d04",
+    "split": "dev",
+    "question": "Công việc yêu cầu trình độ cao đẳng trở lên thì được thử việc tối đa bao nhiêu ngày?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên, thời gian thử việc không quá 60 ngày [blld-2019:p011:para500:c06].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p011:para500:c06"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 3278,
+        "prompt_tokens": 393,
+        "output_tokens": 24
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời gian thử việc trình độ cao đẳng",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p011:para500:c06",
+            "score": 16.4457,
+            "page": 11,
+            "dieu": 25
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p026:para500:c05",
+            "score": 15.5059,
+            "page": 26,
+            "dieu": 59
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p011:para500:c05",
+            "score": 14.4861,
+            "page": 11,
+            "dieu": 25
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p012:para500:c02",
+            "score": 13.8634,
+            "page": 12,
+            "dieu": 27
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p012:para500:c03",
+            "score": 12.9121,
+            "page": 12,
+            "dieu": 27
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p011:para500:c06",
+          "blld-2019:p026:para500:c05",
+          "blld-2019:p011:para500:c05",
+          "blld-2019:p012:para500:c02",
+          "blld-2019:p012:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1496
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 4416,
+        "prompt_tokens": 1005,
+        "output_tokens": 56
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p011:para500:c06",
+      "blld-2019:p026:para500:c05",
+      "blld-2019:p011:para500:c05",
+      "blld-2019:p012:para500:c02",
+      "blld-2019:p012:para500:c03"
+    ],
+    "context": "[blld-2019:p011:para500:c06] (trang 11)\n2. Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên;\n\n[blld-2019:p026:para500:c05] (trang 26)\na) Thành lập cơ sở giáo dục nghề nghiệp hoặc mở lớp đào tạo nghề tại nơi làm việc để đào tạo, đào tạo lại, bồi dưỡng, nâng cao trình độ, kỹ năng nghề cho người lao động; phối hợp với cơ sở giáo dục nghề nghiệp đào tạo các trình độ sơ cấp, trung cấp, cao đẳng và các chương trình đào tạo nghề nghiệp khác theo quy định;\n\n[blld-2019:p011:para500:c05] (trang 11)\nĐiều 25. Thời gian thử việc\nThời gian thử việc do hai bên thỏa thuận căn cứ vào tính chất và mức độ phức tạp của công việc nhưng chỉ được thử việc một lần đối với một công việc và bảo đảm điều kiện sau đây:\n1. Không quá 180 ngày đối với công việc của người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp, Luật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;\n\n[blld-2019:p012:para500:c02] (trang 12)\nĐiều 27. Kết thúc thời gian thử việc\n1. Khi kết thúc thời gian thử việc, người sử dụng lao động phải thông báo kết quả thử việc cho người lao động.\nTrường hợp thử việc đạt yêu cầu thì người sử dụng lao động tiếp tục thực hiện hợp đồng lao động đã giao kết đối với trường hợp thỏa thuận thử việc trong hợp đồng lao động hoặc phải giao kết hợp đồng lao động đối với trường hợp giao kết hợp đồng thử việc.\n\n[blld-2019:p012:para500:c03] (trang 12)\nTrường hợp thử việc không đạt yêu cầu thì chấm dứt hợp đồng lao động đã giao kết hoặc hợp đồng thử việc.\n2. Trong thời gian thử việc, mỗi bên có quyền hủy bỏ hợp đồng thử việc hoặc hợp đồng lao động đã giao kết mà không cần báo trước và không phải bồi thường.",
+    "context_chars": 1496,
+    "usage": {
+      "prompt": 1398,
+      "output": 80,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 7.7,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d05",
+    "split": "dev",
+    "question": "Làm thêm giờ vào ngày nghỉ hằng tuần thì được trả lương ít nhất bằng bao nhiêu phần trăm?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng 200% tiền lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm [blld-2019:p042:para500:c00].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p042:para500:c00"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 6326,
+        "prompt_tokens": 394,
+        "output_tokens": 26
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "tiền lương làm thêm giờ ngày nghỉ hằng tuần",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p042:para500:c00",
+            "score": 29.9502,
+            "page": 42,
+            "dieu": 98
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p042:para500:c02",
+            "score": 27.9695,
+            "page": 42,
+            "dieu": 98
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p046:para500:c03",
+            "score": 21.3569,
+            "page": 46,
+            "dieu": 111
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p046:para500:c04",
+            "score": 20.7535,
+            "page": 46,
+            "dieu": 111
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p044:para500:c01",
+            "score": 18.4488,
+            "page": 44,
+            "dieu": 105
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p042:para500:c00",
+          "blld-2019:p042:para500:c02",
+          "blld-2019:p046:para500:c03",
+          "blld-2019:p046:para500:c04",
+          "blld-2019:p044:para500:c01"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1889
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 24271,
+        "prompt_tokens": 1180,
+        "output_tokens": 64
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p042:para500:c00",
+      "blld-2019:p042:para500:c02",
+      "blld-2019:p046:para500:c03",
+      "blld-2019:p046:para500:c04",
+      "blld-2019:p044:para500:c01"
+    ],
+    "context": "[blld-2019:p042:para500:c00] (trang 42)\nĐiều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.\n\n[blld-2019:p042:para500:c02] (trang 42)\n3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều này, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công việc làm vào ban ngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày nghỉ lễ, tết.\n4. Chính phủ quy định chi tiết Điều này.\n\n[blld-2019:p046:para500:c03] (trang 46)\nĐiều 111. Nghỉ hằng tuần\n1. Mỗi tuần, người lao động được nghỉ ít nhất 24 giờ liên tục. Trong trường hợp đặc biệt do chu kỳ lao động không thể nghỉ hằng tuần thì người sử dụng lao động có trách nhiệm bảo đảm cho người lao động được nghỉ tính bình quân 01 tháng ít nhất 04 ngày.\n2. Người sử dụng lao động có quyền quyết định sắp xếp ngày nghỉ hằng tuần vào ngày Chủ nhật hoặc ngày xác định khác trong tuần nhưng phải ghi vào nội quy lao động.\n\n[blld-2019:p046:para500:c04] (trang 46)\n3. Nếu ngày nghỉ hằng tuần trùng với ngày nghỉ lễ, tết quy định tại khoản 1 Điều 112 của Bộ luật này thì người lao động được nghỉ bù ngày nghỉ hằng tuần vào ngày làm việc kế tiếp.\n\n[blld-2019:p044:para500:c01] (trang 44)\nChương VII\nTHỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI\nMục 1\nTHỜI GIỜ LÀM VIỆC\nĐiều 105. Thời giờ làm việc bình thường\n1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.\n2. Người sử dụng lao động có quyền quy định thời giờ làm việc theo ngày hoặc tuần nhưng phải thông báo cho người lao động biết; trường hợp theo tuần thì thời giờ làm việc bình thường không quá 10 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",
+    "context_chars": 1889,
+    "usage": {
+      "prompt": 1574,
+      "output": 90,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 30.6,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d06",
+    "split": "dev",
+    "question": "Tôi chuẩn bị cưới vợ thì được nghỉ mấy ngày mà vẫn được trả lương?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Khi kết hôn, người lao động được nghỉ 03 ngày mà vẫn được hưởng nguyên lương và phải thông báo với người sử dụng lao động [blld-2019:p048:para500:c00, blld-2019:p047:para500:c06].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p048:para500:c00",
+      "blld-2019:p047:para500:c06"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 4153,
+        "prompt_tokens": 389,
+        "output_tokens": 32
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "nghỉ kết hôn hưởng nguyên lương Bộ luật Lao động 2019",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p048:para500:c00",
+            "score": 19.2553,
+            "page": 48,
+            "dieu": 115
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p047:para500:c06",
+            "score": 15.931,
+            "page": 47,
+            "dieu": 115
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p023:para500:c00",
+            "score": 11.4279,
+            "page": 23,
+            "dieu": 49
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p042:para500:c00",
+            "score": 11.3426,
+            "page": 42,
+            "dieu": 98
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p001:para500:c00",
+            "score": 11.07,
+            "page": 1,
+            "dieu": null
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p048:para500:c00",
+          "blld-2019:p047:para500:c06",
+          "blld-2019:p023:para500:c00",
+          "blld-2019:p042:para500:c00",
+          "blld-2019:p001:para500:c00"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1518
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1063,
+        "prompt_tokens": 1105,
+        "output_tokens": 74
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p048:para500:c00",
+      "blld-2019:p047:para500:c06",
+      "blld-2019:p023:para500:c00",
+      "blld-2019:p042:para500:c00",
+      "blld-2019:p001:para500:c00"
+    ],
+    "context": "[blld-2019:p048:para500:c00] (trang 48)\na) Kết hôn: nghỉ 03 ngày;\nb) Con đẻ, con nuôi kết hôn: nghỉ 01 ngày;\nc) Cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi; cha đẻ, mẹ đẻ, cha nuôi, mẹ nuôi của vợ hoặc chồng; vợ hoặc chồng; con đẻ, con nuôi chết: nghỉ 03 ngày.\n2. Người lao động được nghỉ không hưởng lương 01 ngày và phải thông báo với người sử dụng lao động khi ông nội, bà nội, ông ngoại, bà ngoại, anh, chị, em ruột chết; cha hoặc mẹ kết hôn; anh, chị, em ruột kết hôn.\n\n[blld-2019:p047:para500:c06] (trang 47)\nĐiều 115. Nghỉ việc riêng, nghỉ không hưởng lương\n1. Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao động trong trường hợp sau đây:\n\n[blld-2019:p023:para500:c00] (trang 23)\nb) Người giao kết hợp đồng lao động không đúng thẩm quyền hoặc vi phạm nguyên tắc giao kết hợp đồng lao động quy định tại khoản 1 Điều 15 của Bộ luật này;\nc) Công việc đã giao kết trong hợp đồng lao động là công việc mà pháp luật cấm.\n2. Hợp đồng lao động vô hiệu từng phần khi nội dung của phần đó vi phạm pháp luật nhưng không ảnh hưởng đến các phần còn lại của hợp đồng.\n\n[blld-2019:p042:para500:c00] (trang 42)\nĐiều 98. Tiền lương làm thêm giờ, làm việc vào ban đêm\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công việc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.\n\n[blld-2019:p001:para500:c00] (trang 1)\nQUỐC HỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nBộ luật số: 45/2019/QH14",
+    "context_chars": 1518,
+    "usage": {
+      "prompt": 1494,
+      "output": 106,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 5.22,
+    "context_has_evidence": true,
+    "before_reparse": {
+      "status": "answered",
+      "citations": [],
+      "parser_version": 1
+    },
+    "parser_version": 3
+  },
+  {
+    "query_id": "d07",
+    "split": "dev",
+    "question": "Người lao động bị quấy rối tình dục tại nơi làm việc có phải báo trước khi đơn phương chấm dứt hợp đồng không?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: agent không đưa ra câu trả lời sau khi hết lượt tìm kiếm.",
+    "answer_source": "system",
+    "citations": [],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 5344,
+        "prompt_tokens": 400,
+        "output_tokens": 33
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "đơn phương chấm dứt hợp đồng lao động do quấy rối tình dục báo trước",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p018:para500:c02",
+            "score": 28.1235,
+            "page": 18,
+            "dieu": 38
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p017:para500:c04",
+            "score": 22.794,
+            "page": 17,
+            "dieu": 36
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p015:para500:c04",
+            "score": 22.4865,
+            "page": 15,
+            "dieu": 35
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p018:para500:c03",
+            "score": 21.8119,
+            "page": 18,
+            "dieu": 39
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p016:para500:c03",
+            "score": 21.4306,
+            "page": 16,
+            "dieu": 36
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p018:para500:c02",
+          "blld-2019:p017:para500:c04",
+          "blld-2019:p015:para500:c04",
+          "blld-2019:p018:para500:c03",
+          "blld-2019:p016:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1164
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1222,
+        "prompt_tokens": 966,
+        "output_tokens": 37
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "người lao động không cần báo trước khi đơn phương chấm dứt hợp đồng lao động Điều 35",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 3.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p018:para500:c02",
+            "score": 30.5567,
+            "page": 18,
+            "dieu": 38
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p018:para500:c03",
+            "score": 29.7483,
+            "page": 18,
+            "dieu": 39
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p015:para500:c04",
+            "score": 29.1336,
+            "page": 15,
+            "dieu": 35
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p017:para500:c04",
+            "score": 27.3623,
+            "page": 17,
+            "dieu": 36
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p016:para500:c00",
+            "score": 26.0506,
+            "page": 16,
+            "dieu": 35
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p016:para500:c00"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [
+          "blld-2019:p018:para500:c02",
+          "blld-2019:p018:para500:c03",
+          "blld-2019:p015:para500:c04",
+          "blld-2019:p017:para500:c04"
+        ],
+        "skipped_budget": [],
+        "context_chars_after": 1499
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1142,
+        "prompt_tokens": 1246,
+        "output_tokens": 38
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "người lao động đơn phương chấm dứt hợp đồng lao động không cần báo trước vì quấy rối tình dục",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 3.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p018:para500:c02",
+            "score": 28.3494,
+            "page": 18,
+            "dieu": 38
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p016:para500:c00",
+            "score": 26.0506,
+            "page": 16,
+            "dieu": 35
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p017:para500:c04",
+            "score": 24.907,
+            "page": 17,
+            "dieu": 36
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p015:para500:c04",
+            "score": 24.2057,
+            "page": 15,
+            "dieu": 35
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p018:para500:c03",
+            "score": 23.29,
+            "page": 18,
+            "dieu": 39
+          }
+        ],
+        "new_context_ids": [],
+        "neighbor_ids": [],
+        "dup_ids": [
+          "blld-2019:p018:para500:c02",
+          "blld-2019:p016:para500:c00",
+          "blld-2019:p017:para500:c04",
+          "blld-2019:p015:para500:c04",
+          "blld-2019:p018:para500:c03"
+        ],
+        "skipped_budget": [],
+        "context_chars_after": 1499
+      },
+      {
+        "event": "force_answer_notice"
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": false,
+        "elapsed_ms": 721,
+        "prompt_tokens": 1473,
+        "output_tokens": null
+      },
+      {
+        "event": "no_final_answer",
+        "finish_reason": "FinishReason.STOP",
+        "had_tool_call": false
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "n_searches": 3,
+    "context_ids": [
+      "blld-2019:p018:para500:c02",
+      "blld-2019:p017:para500:c04",
+      "blld-2019:p015:para500:c04",
+      "blld-2019:p018:para500:c03",
+      "blld-2019:p016:para500:c03",
+      "blld-2019:p016:para500:c00"
+    ],
+    "context": "[blld-2019:p018:para500:c02] (trang 18)\nĐiều 38. Hủy bỏ việc đơn phương chấm dứt hợp đồng lao động\nMỗi bên đều có quyền hủy bỏ việc đơn phương chấm dứt hợp đồng lao động trước khi hết thời hạn báo trước nhưng phải thông báo bằng văn bản và phải được bên kia đồng ý.\n\n[blld-2019:p017:para500:c04] (trang 17)\n3. Khi đơn phương chấm dứt hợp đồng lao động quy định tại điểm d và điểm e khoản 1 Điều này thì người sử dụng lao động không phải báo trước cho người lao động.\n\n[blld-2019:p015:para500:c04] (trang 15)\nĐiều 35. Quyền đơn phương chấm dứt hợp đồng lao động của người lao động\n1. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động nhưng phải báo trước cho người sử dụng lao động như sau:\na) Ít nhất 45 ngày nếu làm việc theo hợp đồng lao động không xác định thời hạn;\nb) Ít nhất 30 ngày nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;\n\n[blld-2019:p018:para500:c03] (trang 18)\nĐiều 39. Đơn phương chấm dứt hợp đồng lao động trái pháp luật\nĐơn phương chấm dứt hợp đồng lao động trái pháp luật là trường hợp chấm dứt hợp đồng lao động không đúng quy định tại các điều 35, 36 và 37 của Bộ luật này.\n\n[blld-2019:p016:para500:c03] (trang 16)\nĐiều 36. Quyền đơn phương chấm dứt hợp đồng lao động của người sử dụng lao động\n1. Người sử dụng lao động có quyền đơn phương chấm dứt hợp đồng lao động trong trường hợp sau đây:\n\n[blld-2019:p016:para500:c00] (trang 16)\nc) Ít nhất 03 ngày làm việc nếu làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng;\nd) Đối với một số ngành, nghề, công việc đặc thù thì thời hạn báo trước được thực hiện theo quy định của Chính phủ.\n2. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây:",
+    "context_chars": 1499,
+    "usage": {
+      "prompt": 4085,
+      "output": 108,
+      "thoughts": 0,
+      "llm_calls": 4
+    },
+    "elapsed_s": 8.44,
+    "context_has_evidence": false
+  },
+  {
+    "query_id": "d08",
+    "split": "dev",
+    "question": "Hợp đồng lao động xác định thời hạn có thời hạn tối đa bao lâu?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Hợp đồng lao động xác định thời hạn có thời hạn tối đa là 36 tháng kể từ thời điểm có hiệu lực của hợp đồng [blld-2019:p009:para500:c03].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p009:para500:c03"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 959,
+        "prompt_tokens": 390,
+        "output_tokens": 30
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời hạn hợp đồng lao động xác định thời hạn tối đa bao lâu",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p063:para500:c06",
+            "score": 24.3187,
+            "page": 63,
+            "dieu": 155
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p009:para500:c03",
+            "score": 20.4602,
+            "page": 9,
+            "dieu": 20
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p017:para500:c03",
+            "score": 19.6067,
+            "page": 17,
+            "dieu": 36
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p017:para500:c00",
+            "score": 18.7216,
+            "page": 17,
+            "dieu": 36
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p009:para500:c05",
+            "score": 17.8925,
+            "page": 9,
+            "dieu": 20
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p063:para500:c06",
+          "blld-2019:p009:para500:c03",
+          "blld-2019:p017:para500:c03",
+          "blld-2019:p017:para500:c00",
+          "blld-2019:p009:para500:c05"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1720
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1048,
+        "prompt_tokens": 1100,
+        "output_tokens": 52
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p009:para500:c03",
+      "blld-2019:p017:para500:c03",
+      "blld-2019:p017:para500:c00",
+      "blld-2019:p009:para500:c05"
+    ],
+    "context": "[blld-2019:p063:para500:c06] (trang 63)\nĐiều 155. Thời hạn của giấy phép lao động\nThời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm.\n\n[blld-2019:p009:para500:c03] (trang 9)\nĐiều 20. Loại hợp đồng lao động\n1. Hợp đồng lao động phải được giao kết theo một trong các loại sau đây:\na) Hợp đồng lao động không xác định thời hạn là hợp đồng mà trong đó hai bên không xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng;\nb) Hợp đồng lao động xác định thời hạn là hợp đồng mà trong đó hai bên xác định thời hạn, thời điểm chấm dứt hiệu lực của hợp đồng trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.\n\n[blld-2019:p017:para500:c03] (trang 17)\na) Ít nhất 45 ngày đối với hợp đồng lao động không xác định thời hạn;\nb) Ít nhất 30 ngày đối với hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng;\nc) Ít nhất 03 ngày làm việc đối với hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng và đối với trường hợp quy định tại điểm b khoản 1 Điều này;\nd) Đối với một số ngành, nghề, công việc đặc thù thì thời hạn báo trước được thực hiện theo quy định của Chính phủ.\n\n[blld-2019:p017:para500:c00] (trang 17)\n06 tháng liên tục đối với người làm việc theo hợp đồng lao động xác định thời hạn có thời hạn từ 12 tháng đến 36 tháng hoặc quá nửa thời hạn hợp đồng lao động đối với người làm việc theo hợp đồng lao động xác định thời hạn có thời hạn dưới 12 tháng mà khả năng lao động chưa hồi phục.\nKhi sức khỏe của người lao động bình phục thì người sử dụng lao động xem xét để tiếp tục giao kết hợp đồng lao động với người lao động;\n\n[blld-2019:p009:para500:c05] (trang 9)\nb) Nếu hết thời hạn 30 ngày kể từ ngày hợp đồng lao động hết hạn mà hai bên không ký kết hợp đồng lao động mới thì hợp đồng đã giao kết theo quy định tại điểm b khoản 1 Điều này trở thành hợp đồng lao động không xác định thời hạn;",
+    "context_chars": 1720,
+    "usage": {
+      "prompt": 1490,
+      "output": 82,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.01,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d09",
+    "split": "dev",
+    "question": "Nghỉ làm không phép bao nhiêu ngày thì có thể bị công ty đuổi việc?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Người lao động có thể bị kỷ luật sa thải nếu tự ý bỏ việc không có lý do chính đáng với số ngày cụ thể như sau:\n\n*   Tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày [blld-2019:p052:para500:c03].\n*   Hoặc tự ý bỏ việc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc [blld-2019:p052:para500:c03].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p052:para500:c03"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 779,
+        "prompt_tokens": 391,
+        "output_tokens": 27
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "nghỉ làm không phép bao nhiêu ngày bị sa thải",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p052:para500:c00",
+            "score": 14.3524,
+            "page": 52,
+            "dieu": 124
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p052:para500:c01",
+            "score": 13.7342,
+            "page": 52,
+            "dieu": 125
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p056:para500:c02",
+            "score": 12.6833,
+            "page": 56,
+            "dieu": 137
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p092:para500:c00",
+            "score": 10.8833,
+            "page": 92,
+            "dieu": 219
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p047:para500:c02",
+            "score": 10.6634,
+            "page": 47,
+            "dieu": 113
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p052:para500:c00",
+          "blld-2019:p052:para500:c01",
+          "blld-2019:p056:para500:c02",
+          "blld-2019:p092:para500:c00",
+          "blld-2019:p047:para500:c02"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1562
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1610,
+        "prompt_tokens": 1042,
+        "output_tokens": 29
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "người lao động tự ý bỏ việc bao nhiêu ngày bị sa thải",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.2,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p052:para500:c03",
+            "score": 18.5955,
+            "page": 52,
+            "dieu": 125
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p052:para500:c01",
+            "score": 16.7779,
+            "page": 52,
+            "dieu": 125
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p052:para500:c00",
+            "score": 14.3524,
+            "page": 52,
+            "dieu": 124
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p015:para500:c02",
+            "score": 11.3212,
+            "page": 15,
+            "dieu": 34
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p077:para500:c01",
+            "score": 11.2064,
+            "page": 77,
+            "dieu": 188
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p052:para500:c03",
+          "blld-2019:p015:para500:c02",
+          "blld-2019:p077:para500:c01"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [
+          "blld-2019:p052:para500:c01",
+          "blld-2019:p052:para500:c00"
+        ],
+        "skipped_budget": [],
+        "context_chars_after": 2836
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 958,
+        "prompt_tokens": 1614,
+        "output_tokens": 130
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "blld-2019:p052:para500:c00",
+      "blld-2019:p052:para500:c01",
+      "blld-2019:p056:para500:c02",
+      "blld-2019:p092:para500:c00",
+      "blld-2019:p047:para500:c02",
+      "blld-2019:p052:para500:c03",
+      "blld-2019:p015:para500:c02",
+      "blld-2019:p077:para500:c01"
+    ],
+    "context": "[blld-2019:p052:para500:c00] (trang 52)\n3. Cách chức.\n4. Sa thải.\n\n[blld-2019:p052:para500:c01] (trang 52)\nĐiều 125. Áp dụng hình thức xử lý kỷ luật sa thải\nHình thức xử lý kỷ luật sa thải được người sử dụng lao động áp dụng trong trường hợp sau đây:\n1. Người lao động có hành vi trộm cắp, tham ô, đánh bạc, cố ý gây thương tích, sử dụng ma túy tại nơi làm việc;\n\n[blld-2019:p056:para500:c02] (trang 56)\nNgười sử dụng lao động không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động đối với người lao động vì lý do kết hôn, mang thai, nghỉ thai sản, nuôi con dưới 12 tháng tuổi, trừ trường hợp người sử dụng lao động là cá nhân chết, bị Tòa án tuyên bố mất năng lực hành vi dân sự, mất tích hoặc đã chết hoặc người sử dụng lao động không phải là cá nhân chấm dứt hoạt động hoặc bị cơ quan chuyên môn về đăng ký kinh doanh thuộc Ủy ban nhân dân cấp tỉnh ra thông báo không có người đại diện theo\n\n[blld-2019:p092:para500:c00] (trang 92)\nnhưng các bên không thực hiện hoặc thực hiện không đúng, hòa giải không thành hoặc hết thời hạn hòa giải theo quy định của pháp luật về lao động mà hòa giải viên lao động không tiến hành hòa giải, trừ các tranh chấp lao động sau đây không bắt buộc phải qua thủ tục hòa giải:\na) Về xử lý kỷ luật lao động theo hình thức sa thải hoặc về trường hợp bị đơn phương chấm dứt hợp đồng lao động;\nb) Về bồi thường thiệt hại, trợ cấp khi chấm dứt hợp đồng lao động;\n\n[blld-2019:p047:para500:c02] (trang 47)\n2. Người lao động làm việc chưa đủ 12 tháng cho một người sử dụng lao động thì số ngày nghỉ hằng năm theo tỷ lệ tương ứng với số tháng làm việc.\n3. Trường hợp do thôi việc, bị mất việc làm mà chưa nghỉ hằng năm hoặc chưa nghỉ hết số ngày nghỉ hằng năm thì được người sử dụng lao động thanh toán tiền lương cho những ngày chưa nghỉ.\n\n[blld-2019:p052:para500:c03] (trang 52)\n3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức mà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao động lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy định tại Điều 126 của Bộ luật này;\n4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng.\n\n[blld-2019:p015:para500:c02] (trang 15)\n8. Người lao động bị xử lý kỷ luật sa thải.\n9. Người lao động đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 35 của Bộ luật này.\n10. Người sử dụng lao động đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 36 của Bộ luật này.\n11. Người sử dụng lao động cho người lao động thôi việc theo quy định tại Điều 42 và Điều 43 của Bộ luật này.\n\n[blld-2019:p077:para500:c01] (trang 77)\nĐiều 188. Trình tự, thủ tục hòa giải tranh chấp lao động cá nhân của hòa giải viên lao động\n1. Tranh chấp lao động cá nhân phải được giải quyết thông qua thủ tục hòa giải của hòa giải viên lao động trước khi yêu cầu Hội đồng trọng tài lao động hoặc Tòa án giải quyết, trừ các tranh chấp lao động sau đây không bắt buộc phải qua thủ tục hòa giải:\na) Về xử lý kỷ luật lao động theo hình thức sa thải hoặc về trường hợp bị đơn phương chấm dứt hợp đồng lao động;",
+    "context_chars": 2836,
+    "usage": {
+      "prompt": 3047,
+      "output": 186,
+      "thoughts": 0,
+      "llm_calls": 3
+    },
+    "elapsed_s": 3.35,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d10",
+    "split": "dev",
+    "question": "Lao động nữ được nghỉ thai sản bao lâu và được nghỉ trước khi sinh tối đa bao lâu?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Lao động nữ được quy định về thời gian nghỉ thai sản như sau:\n\n*   **Tổng thời gian nghỉ:** Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng [blld-2019:p057:para500:c01]. Nếu sinh đôi trở lên, từ con thứ 02 trở đi, người mẹ được nghỉ thêm 01 tháng cho mỗi con [blld-2019:p057:para500:c01].\n*   **Thời gian nghỉ trước khi sinh:** Thời gian nghỉ trước khi sinh tối đa không quá 02 tháng [blld-2019:p057:para500:c01].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p057:para500:c01"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 895,
+        "prompt_tokens": 393,
+        "output_tokens": 31
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "lao động nữ nghỉ thai sản bao lâu trước khi sinh tối đa bao lâu",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.9,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p057:para500:c01",
+            "score": 28.8577,
+            "page": 57,
+            "dieu": 139
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p057:para500:c04",
+            "score": 18.6031,
+            "page": 57,
+            "dieu": 139
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p057:para500:c05",
+            "score": 18.0442,
+            "page": 57,
+            "dieu": 140
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p018:para500:c01",
+            "score": 17.9545,
+            "page": 18,
+            "dieu": 37
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p057:para500:c03",
+            "score": 17.4376,
+            "page": 57,
+            "dieu": 139
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p057:para500:c01",
+          "blld-2019:p057:para500:c04",
+          "blld-2019:p057:para500:c05",
+          "blld-2019:p018:para500:c01",
+          "blld-2019:p057:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1701
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1283,
+        "prompt_tokens": 1086,
+        "output_tokens": 164
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p057:para500:c01",
+      "blld-2019:p057:para500:c04",
+      "blld-2019:p057:para500:c05",
+      "blld-2019:p018:para500:c01",
+      "blld-2019:p057:para500:c03"
+    ],
+    "context": "[blld-2019:p057:para500:c01] (trang 57)\nĐiều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n[blld-2019:p057:para500:c04] (trang 57)\nTrong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả, lao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai hộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n[blld-2019:p057:para500:c05] (trang 57)\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các khoản 1, 3 và 5 Điều 139 của Bộ luật này mà không bị cắt giảm tiền lương và quyền, lợi ích so với trước khi nghỉ thai sản; trường hợp việc làm cũ không còn thì người sử dụng lao động phải bố trí việc làm khác cho họ với mức lương không thấp hơn mức lương trước khi nghỉ thai sản.\n\n[blld-2019:p018:para500:c01] (trang 18)\n3. Người lao động nữ mang thai; người lao động đang nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.\n\n[blld-2019:p057:para500:c03] (trang 57)\n4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động.",
+    "context_chars": 1701,
+    "usage": {
+      "prompt": 1479,
+      "output": 195,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.18,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d11",
+    "split": "dev",
+    "question": "Lao động nữ muốn đi làm lại trước khi hết thời gian nghỉ thai sản thì cần điều kiện gì?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Lao động nữ có thể đi làm lại trước khi hết thời hạn nghỉ thai sản (06 tháng) khi đáp ứng đủ các điều kiện sau:\n\n*   Đã nghỉ thai sản ít nhất được 04 tháng [blld-2019:p057:para500:c03].\n*   Phải báo trước cho người sử dụng lao động [blld-2019:p057:para500:c03].\n*   Được người sử dụng lao động đồng ý [blld-2019:p057:para500:c03].\n*   Có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động [blld-2019:p057:para500:c03].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p057:para500:c03"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 842,
+        "prompt_tokens": 394,
+        "output_tokens": 32
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "lao động nữ đi làm lại trước khi hết thời gian nghỉ thai sản điều kiện",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p057:para500:c01",
+            "score": 32.745,
+            "page": 57,
+            "dieu": 139
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p057:para500:c03",
+            "score": 30.6822,
+            "page": 57,
+            "dieu": 139
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p057:para500:c05",
+            "score": 27.4362,
+            "page": 57,
+            "dieu": 140
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p057:para500:c02",
+            "score": 25.9287,
+            "page": 57,
+            "dieu": 139
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p056:para500:c03",
+            "score": 19.4981,
+            "page": 56,
+            "dieu": 137
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p057:para500:c01",
+          "blld-2019:p057:para500:c03",
+          "blld-2019:p057:para500:c05",
+          "blld-2019:p057:para500:c02",
+          "blld-2019:p056:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1838
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1125,
+        "prompt_tokens": 1125,
+        "output_tokens": 195
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p057:para500:c01",
+      "blld-2019:p057:para500:c03",
+      "blld-2019:p057:para500:c05",
+      "blld-2019:p057:para500:c02",
+      "blld-2019:p056:para500:c03"
+    ],
+    "context": "[blld-2019:p057:para500:c01] (trang 57)\nĐiều 139. Nghỉ thai sản\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01 tháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo hiểm xã hội.\n\n[blld-2019:p057:para500:c03] (trang 57)\n4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động.\n\n[blld-2019:p057:para500:c05] (trang 57)\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản\nLao động được bảo đảm việc làm cũ khi trở lại làm việc sau khi nghỉ hết thời gian theo quy định tại các khoản 1, 3 và 5 Điều 139 của Bộ luật này mà không bị cắt giảm tiền lương và quyền, lợi ích so với trước khi nghỉ thai sản; trường hợp việc làm cũ không còn thì người sử dụng lao động phải bố trí việc làm khác cho họ với mức lương không thấp hơn mức lương trước khi nghỉ thai sản.\n\n[blld-2019:p057:para500:c02] (trang 57)\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm một thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.\n\n[blld-2019:p056:para500:c03] (trang 56)\npháp luật, người được ủy quyền thực hiện quyền và nghĩa vụ của người đại diện theo pháp luật.\nTrường hợp hợp đồng lao động hết hạn trong thời gian lao động nữ mang thai hoặc nuôi con dưới 12 tháng tuổi thì được ưu tiên giao kết hợp đồng lao động mới.\n4. Lao động nữ trong thời gian hành kinh được nghỉ mỗi ngày 30 phút, trong thời gian nuôi con dưới 12 tháng tuổi được nghỉ mỗi ngày 60 phút trong thời gian làm việc. Thời gian nghỉ vẫn được hưởng đủ tiền lương theo hợp đồng lao động.",
+    "context_chars": 1838,
+    "usage": {
+      "prompt": 1519,
+      "output": 227,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 1.97,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d12",
+    "split": "dev",
+    "question": "Lao động chưa thành niên là người lao động bao nhiêu tuổi?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Lao động chưa thành niên là người lao động chưa đủ 18 tuổi [blld-2019:p058:para500:c03].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p058:para500:c03"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_error",
+        "code": 429,
+        "message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Q",
+        "attempt": 1,
+        "elapsed_ms": 253
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 4445,
+        "prompt_tokens": 386,
+        "output_tokens": 23
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "định nghĩa lao động chưa thành niên",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p058:para500:c03",
+            "score": 15.4388,
+            "page": 58,
+            "dieu": 143
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p058:para500:c05",
+            "score": 14.0199,
+            "page": 58,
+            "dieu": 144
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p059:para500:c04",
+            "score": 11.1987,
+            "page": 59,
+            "dieu": 146
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p058:para500:c06",
+            "score": 11.0581,
+            "page": 58,
+            "dieu": 144
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p006:para500:c00",
+            "score": 10.133,
+            "page": 6,
+            "dieu": 8
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p058:para500:c03",
+          "blld-2019:p058:para500:c05",
+          "blld-2019:p059:para500:c04",
+          "blld-2019:p058:para500:c06",
+          "blld-2019:p006:para500:c00"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1436
+      },
+      {
+        "event": "llm_error",
+        "code": 429,
+        "message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Q",
+        "attempt": 1,
+        "elapsed_ms": 202
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 5340,
+        "prompt_tokens": 1064,
+        "output_tokens": 39
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p058:para500:c03",
+      "blld-2019:p058:para500:c05",
+      "blld-2019:p059:para500:c04",
+      "blld-2019:p058:para500:c06",
+      "blld-2019:p006:para500:c00"
+    ],
+    "context": "[blld-2019:p058:para500:c03] (trang 58)\nChương XI\nNHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG\nCHƯA THÀNH NIÊN VÀ MỘT SỐ LAO ĐỘNG KHÁC\nMục 1\nLAO ĐỘNG CHƯA THÀNH NIÊN\nĐiều 143. Lao động chưa thành niên\n1. Lao động chưa thành niên là người lao động chưa đủ 18 tuổi.\n2. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được làm công việc hoặc làm việc ở nơi làm việc quy định tại Điều 147 của Bộ luật này.\n3. Người từ đủ 13 tuổi đến chưa đủ 15 tuổi chỉ được làm công việc nhẹ theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.\n\n[blld-2019:p058:para500:c05] (trang 58)\nĐiều 144. Nguyên tắc sử dụng lao động chưa thành niên\n1. Lao động chưa thành niên chỉ được làm công việc phù hợp với sức khỏe để bảo đảm sự phát triển thể lực, trí lực, nhân cách.\n2. Người sử dụng lao động khi sử dụng lao động chưa thành niên có trách nhiệm quan tâm chăm sóc người lao động về các mặt lao động, sức khỏe, học tập trong quá trình lao động.\n\n[blld-2019:p059:para500:c04] (trang 59)\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần; không được làm thêm giờ, làm việc vào ban đêm.\n\n[blld-2019:p058:para500:c06] (trang 58)\n3. Khi sử dụng lao động chưa thành niên, người sử dụng lao động phải có sự đồng ý của cha, mẹ hoặc người giám hộ; lập sổ theo dõi riêng, ghi đầy đủ họ tên,\n\n[blld-2019:p006:para500:c00] (trang 6)\nngười, bóc lột, cưỡng bức lao động hoặc lợi dụng dịch vụ việc làm, hoạt động đưa người lao động đi làm việc ở nước ngoài theo hợp đồng để thực hiện hành vi trái pháp luật.\n7. Sử dụng lao động chưa thành niên trái pháp luật.",
+    "context_chars": 1436,
+    "usage": {
+      "prompt": 1450,
+      "output": 62,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 20.24,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d13",
+    "split": "dev",
+    "question": "Thời hiệu là bao lâu kể từ ngày xảy ra hành vi vi phạm?",
+    "answerable": true,
+    "filter": {
+      "chuong": "VIII"
+    },
+    "rerun": false,
+    "status": "answered",
+    "answer": "Thời hiệu xử lý kỷ luật lao động được quy định như sau:\n\n*   **06 tháng:** Kể từ ngày xảy ra hành vi vi phạm [blld-2019:p051:para500:c03].\n*   **12 tháng:** Kể từ ngày xảy ra hành vi vi phạm nếu hành vi đó liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ hoặc bí mật kinh doanh của người sử dụng lao động [blld-2019:p051:para500:c03].\n\nNgoài ra, trong trường hợp hết thời hạn quy định tại khoản 4 Điều 122 mà thời hiệu đã hết hoặc còn nhưng không đủ 60 ngày, thì thời hiệu có thể được kéo dài thêm nhưng không quá 60 ngày kể từ ngày hết thời gian nêu trên [blld-2019:p051:para500:c04].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p051:para500:c03",
+      "blld-2019:p051:para500:c04"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 5074,
+        "prompt_tokens": 402,
+        "output_tokens": 35
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời hiệu xử lý kỷ luật lao động Chương VIII Bộ luật Lao động 2019",
+        "filter": {
+          "chuong": "VIII"
+        },
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 0.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p051:para500:c03",
+            "score": 21.9196,
+            "page": 51,
+            "dieu": 123
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p051:para500:c04",
+            "score": 20.9057,
+            "page": 51,
+            "dieu": 123
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p048:para500:c05",
+            "score": 20.2296,
+            "page": 48,
+            "dieu": 117
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p052:para500:c05",
+            "score": 19.468,
+            "page": 52,
+            "dieu": 126
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p052:para500:c03",
+            "score": 17.1643,
+            "page": 52,
+            "dieu": 125
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p051:para500:c03",
+          "blld-2019:p051:para500:c04",
+          "blld-2019:p048:para500:c05",
+          "blld-2019:p052:para500:c05",
+          "blld-2019:p052:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1931
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1409,
+        "prompt_tokens": 1211,
+        "output_tokens": 211
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p051:para500:c03",
+      "blld-2019:p051:para500:c04",
+      "blld-2019:p048:para500:c05",
+      "blld-2019:p052:para500:c05",
+      "blld-2019:p052:para500:c03"
+    ],
+    "context": "[blld-2019:p051:para500:c03] (trang 51)\nĐiều 123. Thời hiệu xử lý kỷ luật lao động\n1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động thì thời hiệu xử lý kỷ luật lao động là 12 tháng.\n\n[blld-2019:p051:para500:c04] (trang 51)\n2. Khi hết thời gian quy định tại khoản 4 Điều 122 của Bộ luật này, nếu hết thời hiệu hoặc còn thời hiệu nhưng không đủ 60 ngày thì được kéo dài thời hiệu để xử lý kỷ luật lao động nhưng không quá 60 ngày kể từ ngày hết thời gian nêu trên.\n3. Người sử dụng lao động phải ban hành quyết định xử lý kỷ luật lao động trong thời hạn quy định tại khoản 1 và khoản 2 Điều này.\n\n[blld-2019:p048:para500:c05] (trang 48)\nChương VIII\nKỶ LUẬT LAO ĐỘNG, TRÁCH NHIỆM VẬT CHẤT\nMục 1\nKỶ LUẬT LAO ĐỘNG\nĐiều 117. Kỷ luật lao động\nKỷ luật lao động là những quy định về việc tuân theo thời gian, công nghệ và điều hành sản xuất, kinh doanh do người sử dụng lao động ban hành trong nội quy lao động và do pháp luật quy định.\n\n[blld-2019:p052:para500:c05] (trang 52)\nĐiều 126. Xóa kỷ luật, giảm thời hạn chấp hành kỷ luật lao động\n1. Người lao động bị khiển trách sau 03 tháng hoặc bị xử lý kỷ luật kéo dài thời hạn nâng lương sau 06 tháng hoặc bị xử lý kỷ luật cách chức sau 03 năm kể từ ngày bị xử lý, nếu không tiếp tục vi phạm kỷ luật lao động thì đương nhiên được xóa kỷ luật.\n2. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương sau khi chấp hành được một nửa thời hạn nếu sửa chữa tiến bộ thì có thể được người sử dụng lao động xét giảm thời hạn.\n\n[blld-2019:p052:para500:c03] (trang 52)\n3. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương hoặc cách chức mà tái phạm trong thời gian chưa xóa kỷ luật. Tái phạm là trường hợp người lao động lặp lại hành vi vi phạm đã bị xử lý kỷ luật mà chưa được xóa kỷ luật theo quy định tại Điều 126 của Bộ luật này;\n4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng.",
+    "context_chars": 1931,
+    "usage": {
+      "prompt": 1613,
+      "output": 246,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 6.48,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d14",
+    "split": "dev",
+    "question": "Thời hạn tối đa là bao lâu và được gia hạn mấy lần?",
+    "answerable": true,
+    "filter": {
+      "chuong": "XI"
+    },
+    "rerun": false,
+    "status": "answered",
+    "answer": "Đối với các nội dung liên quan tại Chương XI (Quy định đối với một số loại lao động đặc thù), thời hạn và việc gia hạn được quy định như sau:\n\n* **Đối với giấy phép lao động:** Thời hạn tối đa là 02 năm; trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm [blld-2019:p063:para500:c06].\n* **Đối với hợp đồng lao động của người lao động nước ngoài:** Thời hạn không được vượt quá thời hạn của Giấy phép lao động. Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn [blld-2019:p062:para500:c03].\n* **Đối với người lao động cao tuổi:** Hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn [blld-2019:p061:para500:c01].\n* **Đối với lao động là người giúp việc gia đình:** Thời hạn hợp đồng lao động do hai bên thỏa thuận [blld-2019:p065:para500:c04].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p062:para500:c03",
+      "blld-2019:p061:para500:c01",
+      "blld-2019:p065:para500:c04"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1366,
+        "prompt_tokens": 401,
+        "output_tokens": 39
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "thời hạn hợp đồng lao động tối đa gia hạn mấy lần chương XI Bộ luật Lao động 2019",
+        "filter": {
+          "chuong": "XI"
+        },
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 0.7,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p063:para500:c06",
+            "score": 30.1106,
+            "page": 63,
+            "dieu": 155
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p062:para500:c03",
+            "score": 15.5095,
+            "page": 62,
+            "dieu": 151
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p061:para500:c01",
+            "score": 11.6793,
+            "page": 61,
+            "dieu": 149
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p065:para500:c04",
+            "score": 10.9131,
+            "page": 65,
+            "dieu": 162
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p066:para500:c00",
+            "score": 10.1589,
+            "page": 66,
+            "dieu": 163
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p063:para500:c06",
+          "blld-2019:p062:para500:c03",
+          "blld-2019:p061:para500:c01",
+          "blld-2019:p065:para500:c04",
+          "blld-2019:p066:para500:c00"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1709
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 8309,
+        "prompt_tokens": 1100,
+        "output_tokens": 273
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p062:para500:c03",
+      "blld-2019:p061:para500:c01",
+      "blld-2019:p065:para500:c04",
+      "blld-2019:p066:para500:c00"
+    ],
+    "context": "[blld-2019:p063:para500:c06] (trang 63)\nĐiều 155. Thời hạn của giấy phép lao động\nThời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm.\n\n[blld-2019:p062:para500:c03] (trang 62)\n2. Thời hạn của hợp đồng lao động đối với người lao động nước ngoài làm việc tại Việt Nam không được vượt quá thời hạn của Giấy phép lao động. Khi sử dụng người lao động nước ngoài làm việc tại Việt Nam, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.\n\n[blld-2019:p061:para500:c01] (trang 61)\nĐiều 149. Sử dụng người lao động cao tuổi\n1. Khi sử dụng người lao động cao tuổi, hai bên có thể thỏa thuận giao kết nhiều lần hợp đồng lao động xác định thời hạn.\n2. Khi người lao động cao tuổi đang hưởng lương hưu theo quy định của Luật Bảo hiểm xã hội mà làm việc theo hợp đồng lao động mới thì ngoài quyền lợi đang hưởng theo chế độ hưu trí, người lao động cao tuổi được hưởng tiền lương và các quyền lợi khác theo quy định của pháp luật, hợp đồng lao động.\n\n[blld-2019:p065:para500:c04] (trang 65)\nĐiều 162. Hợp đồng lao động đối với lao động là người giúp việc gia đình\n1. Người sử dụng lao động phải giao kết hợp đồng lao động bằng văn bản với lao động là người giúp việc gia đình.\n2. Thời hạn của hợp đồng lao động đối với lao động là người giúp việc gia đình do hai bên thỏa thuận. Một bên có quyền đơn phương chấm dứt hợp đồng lao động bất kỳ khi nào nhưng phải báo trước ít nhất 15 ngày.\n\n[blld-2019:p066:para500:c00] (trang 66)\n3. Tôn trọng danh dự, nhân phẩm của người giúp việc gia đình.\n4. Bố trí chỗ ăn, ở hợp vệ sinh cho người giúp việc gia đình nếu có thỏa thuận.\n5. Tạo cơ hội cho người giúp việc gia đình được tham gia học văn hóa, giáo dục nghề nghiệp.\n6. Trả tiền tàu xe đi đường khi người giúp việc gia đình thôi việc về nơi cư trú, trừ trường hợp người giúp việc gia đình chấm dứt hợp đồng lao động trước thời hạn.",
+    "context_chars": 1709,
+    "usage": {
+      "prompt": 1501,
+      "output": 312,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 9.68,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d15",
+    "split": "dev",
+    "question": "Tuổi nghỉ hưu trong điều kiện lao động bình thường được điều chỉnh đến bao nhiêu tuổi đối với nam và nữ?",
+    "answerable": true,
+    "filter": null,
+    "rerun": false,
+    "status": "answered",
+    "answer": "Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đạt mức:\n*   Đối với lao động nam: đủ 62 tuổi vào năm 2028 [blld-2019:p067:para500:c03].\n*   Đối với lao động nữ: đủ 60 tuổi vào năm 2035 [blld-2019:p067:para500:c03].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p067:para500:c03"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1171,
+        "prompt_tokens": 398,
+        "output_tokens": 28
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "tuổi nghỉ hưu điều kiện lao động bình thường nam nữ",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p067:para500:c03",
+            "score": 28.811,
+            "page": 67,
+            "dieu": 169
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p067:para500:c04",
+            "score": 28.6031,
+            "page": 67,
+            "dieu": 169
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p055:para500:c01",
+            "score": 17.5955,
+            "page": 55,
+            "dieu": 135
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p090:para500:c04",
+            "score": 16.1096,
+            "page": 90,
+            "dieu": 219
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p091:para500:c03",
+            "score": 14.2974,
+            "page": 91,
+            "dieu": 219
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p067:para500:c03",
+          "blld-2019:p067:para500:c04",
+          "blld-2019:p055:para500:c01",
+          "blld-2019:p090:para500:c04",
+          "blld-2019:p091:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 2111
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 3493,
+        "prompt_tokens": 1272,
+        "output_tokens": 116
+      },
+      {
+        "event": "answer",
+        "abstain": false
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p067:para500:c03",
+      "blld-2019:p067:para500:c04",
+      "blld-2019:p055:para500:c01",
+      "blld-2019:p090:para500:c04",
+      "blld-2019:p091:para500:c03"
+    ],
+    "context": "[blld-2019:p067:para500:c03] (trang 67)\nĐiều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ tuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.\n\n[blld-2019:p067:para500:c04] (trang 67)\nKể từ năm 2021, tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường là đủ 60 tuổi 03 tháng đối với lao động nam và đủ 55 tuổi 04 tháng đối với lao động nữ; sau đó, cứ mỗi năm tăng thêm 03 tháng đối với lao động nam và 04 tháng đối với lao động nữ.\n\n[blld-2019:p055:para500:c01] (trang 55)\nChương X\nNHỮNG QUY ĐỊNH RIÊNG ĐỐI VỚI LAO ĐỘNG NỮ\nVÀ BẢO ĐẢM BÌNH ĐẲNG GIỚI\nĐiều 135. Chính sách của Nhà nước\n1. Bảo đảm quyền bình đẳng của lao động nữ, lao động nam, thực hiện các biện pháp bảo đảm bình đẳng giới và phòng, chống quấy rối tình dục tại nơi làm việc.\n2. Khuyến khích người sử dụng lao động tạo điều kiện để lao động nữ, lao động nam có việc làm thường xuyên, áp dụng rộng rãi chế độ làm việc theo thời gian biểu linh hoạt, làm việc không trọn thời gian, giao việc làm tại nhà.\n\n[blld-2019:p090:para500:c04] (trang 90)\nc) Người bị nhiễm HIV do tai nạn rủi ro nghề nghiệp trong khi thực hiện nhiệm vụ được giao.\n3. Lao động nữ là cán bộ, công chức cấp xã hoặc là người hoạt động không chuyên trách ở xã, phường, thị trấn tham gia bảo hiểm xã hội khi nghỉ việc mà có từ đủ 15 năm đến dưới 20 năm đóng bảo hiểm xã hội và đủ tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động thì được hưởng lương hưu.\n4. Điều kiện về tuổi hưởng lương hưu đối với một số trường hợp đặc biệt theo quy định của Chính phủ.”;\n\n[blld-2019:p091:para500:c03] (trang 91)\n2. Người lao động quy định tại điểm đ và điểm e khoản 1 Điều 2 của Luật này khi nghỉ việc có đủ 20 năm đóng bảo hiểm xã hội trở lên, bị suy giảm khả năng lao động từ 61% trở lên được hưởng lương hưu với mức thấp hơn so với người đủ điều kiện hưởng lương hưu quy định tại điểm a và điểm b khoản 2 Điều 54 của Luật này khi thuộc một trong các trường hợp sau đây:\na) Có tuổi thấp hơn tối đa 10 tuổi so với tuổi nghỉ hưu quy định tại khoản 2 Điều 169 của Bộ luật Lao động;",
+    "context_chars": 2111,
+    "usage": {
+      "prompt": 1670,
+      "output": 144,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 4.67,
+    "context_has_evidence": true,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d16",
+    "split": "dev",
+    "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+    "answerable": false,
+    "filter": null,
+    "rerun": false,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 quy định về nguyên tắc xác lập mức lương tối thiểu theo vùng [blld-2019:p039:para500:c05], tuy nhiên không quy định con số cụ thể của mức lương tối thiểu vùng I. Mức lương tối thiểu cụ thể do Chính phủ công bố [blld-2019:p053:para500:c05].",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p039:para500:c05",
+      "blld-2019:p053:para500:c05"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1019,
+        "prompt_tokens": 389,
+        "output_tokens": 25
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "mức lương tối thiểu vùng I tháng bao nhiêu",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 1.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p039:para500:c05",
+            "score": 27.1103,
+            "page": 39,
+            "dieu": 91
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p039:para500:c06",
+            "score": 20.7551,
+            "page": 39,
+            "dieu": 91
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p053:para500:c05",
+            "score": 17.6439,
+            "page": 53,
+            "dieu": 129
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p039:para500:c04",
+            "score": 16.1117,
+            "page": 39,
+            "dieu": 90
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p042:para500:c05",
+            "score": 15.0168,
+            "page": 42,
+            "dieu": 99
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p039:para500:c05",
+          "blld-2019:p039:para500:c06",
+          "blld-2019:p053:para500:c05",
+          "blld-2019:p039:para500:c04",
+          "blld-2019:p042:para500:c05"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 1597
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 1312,
+        "prompt_tokens": 1032,
+        "output_tokens": 108
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p039:para500:c05",
+      "blld-2019:p039:para500:c06",
+      "blld-2019:p053:para500:c05",
+      "blld-2019:p039:para500:c04",
+      "blld-2019:p042:para500:c05"
+    ],
+    "context": "[blld-2019:p039:para500:c05] (trang 39)\nĐiều 91. Mức lương tối thiểu\n1. Mức lương tối thiểu là mức lương thấp nhất được trả cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường nhằm bảo đảm mức sống tối thiểu của người lao động và gia đình họ, phù hợp với điều kiện phát triển kinh tế - xã hội.\n2. Mức lương tối thiểu được xác lập theo vùng, ấn định theo tháng, giờ.\n\n[blld-2019:p039:para500:c06] (trang 39)\n3. Mức lương tối thiểu được điều chỉnh dựa trên mức sống tối thiểu của người lao động và gia đình họ; tương quan giữa mức lương tối thiểu và mức lương trên thị trường; chỉ số giá tiêu dùng, tốc độ tăng trưởng kinh tế; quan hệ\n\n[blld-2019:p053:para500:c05] (trang 53)\nTrường hợp người lao động gây thiệt hại không nghiêm trọng do sơ suất với giá trị không quá 10 tháng lương tối thiểu vùng do Chính phủ công bố được áp dụng tại nơi người lao động làm việc thì người lao động phải bồi thường nhiều nhất là 03 tháng tiền lương và bị khấu trừ hằng tháng vào lương theo quy định tại khoản 3 Điều 102 của Bộ luật này.\n\n[blld-2019:p039:para500:c04] (trang 39)\nChương VI\nTIỀN LƯƠNG\nĐiều 90. Tiền lương\n1. Tiền lương là số tiền mà người sử dụng lao động trả cho người lao động theo thỏa thuận để thực hiện công việc, bao gồm mức lương theo công việc hoặc chức danh, phụ cấp lương và các khoản bổ sung khác.\n2. Mức lương theo công việc hoặc chức danh không được thấp hơn mức lương tối thiểu.\n3. Người sử dụng lao động phải bảo đảm trả lương bình đẳng, không phân biệt giới tính đối với người lao động làm công việc có giá trị như nhau.\n\n[blld-2019:p042:para500:c05] (trang 42)\nb) Trường hợp phải ngừng việc trên 14 ngày làm việc thì tiền lương ngừng việc do hai bên thỏa thuận nhưng phải bảo đảm tiền lương ngừng việc trong 14 ngày đầu tiên không thấp hơn mức lương tối thiểu.",
+    "context_chars": 1597,
+    "usage": {
+      "prompt": 1421,
+      "output": 133,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 2.33,
+    "parser_version": 3
+  },
+  {
+    "query_id": "d17",
+    "split": "dev",
+    "question": "Người lao động phải đóng bảo hiểm xã hội bắt buộc bao nhiêu phần trăm tiền lương mỗi tháng?",
+    "answerable": false,
+    "filter": null,
+    "rerun": false,
+    "status": "abstain",
+    "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Bộ luật Lao động 2019 có quy định trách nhiệm tham gia bảo hiểm xã hội bắt buộc [blld-2019:p067:para500:c00] và nhắc đến việc trích nộp các khoản này từ tiền lương [blld-2019:p043:para500:c06], tuy nhiên không quy định cụ thể tỷ lệ phần trăm tiền lương mà người lao động phải đóng. Tỷ lệ này được quy định bởi pháp luật về bảo hiểm xã hội.",
+    "answer_source": "model",
+    "citations": [
+      "blld-2019:p067:para500:c00",
+      "blld-2019:p043:para500:c06"
+    ],
+    "invalid_citations": [],
+    "events": [
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 786,
+        "prompt_tokens": 393,
+        "output_tokens": 29
+      },
+      {
+        "event": "search",
+        "tool": "search_law",
+        "method": "bm25",
+        "query": "tỷ lệ đóng bảo hiểm xã hội bắt buộc của người lao động",
+        "filter": null,
+        "top_k": 5,
+        "status": "ok",
+        "elapsed_ms": 2.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "blld-2019:p067:para500:c02",
+            "score": 27.7566,
+            "page": 67,
+            "dieu": 168
+          },
+          {
+            "rank": 2,
+            "id": "blld-2019:p067:para500:c00",
+            "score": 22.3465,
+            "page": 67,
+            "dieu": 168
+          },
+          {
+            "rank": 3,
+            "id": "blld-2019:p043:para500:c06",
+            "score": 21.5052,
+            "page": 43,
+            "dieu": 102
+          },
+          {
+            "rank": 4,
+            "id": "blld-2019:p028:para500:c02",
+            "score": 16.741,
+            "page": 28,
+            "dieu": 62
+          },
+          {
+            "rank": 5,
+            "id": "blld-2019:p067:para500:c03",
+            "score": 15.6702,
+            "page": 67,
+            "dieu": 169
+          }
+        ],
+        "new_context_ids": [
+          "blld-2019:p067:para500:c02",
+          "blld-2019:p067:para500:c00",
+          "blld-2019:p043:para500:c06",
+          "blld-2019:p028:para500:c02",
+          "blld-2019:p067:para500:c03"
+        ],
+        "neighbor_ids": [],
+        "dup_ids": [],
+        "skipped_budget": [],
+        "context_chars_after": 2008
+      },
+      {
+        "event": "llm_call",
+        "allow_tools": true,
+        "elapsed_ms": 3850,
+        "prompt_tokens": 1189,
+        "output_tokens": 129
+      },
+      {
+        "event": "answer",
+        "abstain": true
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "blld-2019:p067:para500:c02",
+      "blld-2019:p067:para500:c00",
+      "blld-2019:p043:para500:c06",
+      "blld-2019:p028:para500:c02",
+      "blld-2019:p067:para500:c03"
+    ],
+    "context": "[blld-2019:p067:para500:c02] (trang 67)\n3. Đối với người lao động không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp thì người sử dụng lao động có trách nhiệm chi trả thêm cùng lúc với kỳ trả lương một khoản tiền cho người lao động tương đương với mức người sử dụng lao động đóng bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp cho người lao động theo quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp.\n\n[blld-2019:p067:para500:c00] (trang 67)\nChương XII\nBẢO HIỂM XÃ HỘI, BẢO HIỂM Y TẾ, BẢO HIỂM THẤT NGHIỆP\nĐiều 168. Tham gia bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp\n1. Người sử dụng lao động, người lao động phải tham gia bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp; người lao động được hưởng các chế độ theo quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp.\nKhuyến khích người sử dụng lao động, người lao động tham gia các hình thức bảo hiểm khác đối với người lao động.\n\n[blld-2019:p043:para500:c06] (trang 43)\n3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân.\n\n[blld-2019:p028:para500:c02] (trang 28)\n3. Chi phí đào tạo bao gồm các khoản chi có chứng từ hợp lệ về chi phí trả cho người dạy, tài liệu học tập, trường, lớp, máy, thiết bị, vật liệu thực hành, các chi phí khác hỗ trợ cho người học và tiền lương, tiền đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp cho người học trong thời gian đi học. Trường hợp người lao động được gửi đi đào tạo ở nước ngoài thì chi phí đào tạo còn bao gồm chi phí đi lại, chi phí sinh hoạt trong thời gian đào tạo.\n\n[blld-2019:p067:para500:c03] (trang 67)\nĐiều 169. Tuổi nghỉ hưu\n1. Người lao động bảo đảm điều kiện về thời gian đóng bảo hiểm xã hội theo quy định của pháp luật về bảo hiểm xã hội được hưởng lương hưu khi đủ tuổi nghỉ hưu.\n2. Tuổi nghỉ hưu của người lao động trong điều kiện lao động bình thường được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.",
+    "context_chars": 2008,
+    "usage": {
+      "prompt": 1582,
+      "output": 158,
+      "thoughts": 0,
+      "llm_calls": 2
+    },
+    "elapsed_s": 4.64,
+    "parser_version": 3
+  }
+]

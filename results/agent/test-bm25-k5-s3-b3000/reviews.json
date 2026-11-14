@@ -1,0 +1,97 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p045:para500:c00"
+    ],
+    "note": "Đúng không quá 200 giờ/năm (Điều 107 khoản 2 điểm c). Context có p045:c00.",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p021:para500:c02",
+      "blld-2019:p021:para500:c03"
+    ],
+    "note": "Phần chính đúng: một nửa tháng tiền lương/năm, đủ 12 tháng, cách tính thời gian và tiền lương (Điều 46). SAI một ý: mô tả điểm e khoản 1 Điều 36 là 'đơn phương chấm dứt hợp đồng trái pháp luật' — chunk chỉ ghi 'trường hợp quy định tại điểm e khoản 1 Điều 36', model tự diễn giải sai. Tôi chấm 1 vì có khẳng định sai — CẦN BẠN XEM LẠI (có thể chấm 2 nếu coi phần chính đã đủ).",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p046:para500:c00"
+    ],
+    "note": "Đúng 45 phút liên tục (Điều 109 khoản 1).",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [
+      true
+    ],
+    "citations": [
+      "blld-2019:p043:para500:c06"
+    ],
+    "note": "Đúng và đủ, citation đúng p043:c06 (Điều 102 khoản 3).",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p079:para500:c02",
+      "blld-2019:p081:para500:c02"
+    ],
+    "note": "Đúng và đủ cả 2 loại: cá nhân 01 năm (Điều 190, p079:c02) và tập thể về quyền 01 năm (Điều 194 khoản 3, p081:c02).",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t06",
+    "citation_support": [],
+    "citations": [],
+    "note": "Từ chối đúng, phân biệt được trợ cấp thất nghiệp với trợ cấp mất việc làm và trợ cấp thôi việc (đúng bẫy dự kiến).",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  },
+  {
+    "query_id": "t07",
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "citations": [
+      "blld-2019:p003:para500:c05",
+      "blld-2019:p063:para500:c06",
+      "blld-2019:p090:para500:c01",
+      "blld-2019:p091:para500:c03"
+    ],
+    "note": "Từ chối đúng, không bịa số ngày. 4 citation chỉ dùng để mô tả những gì đã tìm thấy và mô tả đúng nội dung từng chunk (p003:c05 quyền nghỉ theo chế độ; p063:c06 thời hạn giấy phép lao động; p090:c01, p091:c03 lương hưu), nên đánh true.",
+    "abstention_correct": true,
+    "labeled_by": "claude-draft (cần người làm bài rà lại)"
+  }
+]

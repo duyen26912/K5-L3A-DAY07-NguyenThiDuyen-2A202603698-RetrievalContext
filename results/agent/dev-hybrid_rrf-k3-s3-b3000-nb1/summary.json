@@ -1,0 +1,71 @@
+{
+  "split": "dev",
+  "model": "gemini-3.1-flash-lite",
+  "temperature": null,
+  "method": "hybrid_rrf",
+  "top_k": 3,
+  "max_searches": 3,
+  "budget_chars": 3000,
+  "neighbors": 1,
+  "use_filter": true,
+  "ids": null,
+  "run_at": "2026-11-14 16:25:31",
+  "reparsed_at": "2026-11-14 17:00:44",
+  "parser_version": 3,
+  "n_questions": 17,
+  "status": {
+    "answered": 13,
+    "abstain": 4,
+    "error": 0
+  },
+  "errors": {},
+  "tool_use": {
+    "n": 17,
+    "N": 17,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 15,
+    "3": 2
+  },
+  "context_evidence_rate": {
+    "n": 13,
+    "N": 15,
+    "rate": 0.8667
+  },
+  "context_evidence_misses": [
+    "d06",
+    "d07"
+  ],
+  "citation_ids_in_context": {
+    "n": 20,
+    "N": 20,
+    "rate": 1.0
+  },
+  "answers_with_citation": {
+    "n": 13,
+    "N": 13,
+    "rate": 1.0
+  },
+  "auto_abstain_on_unanswerable": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "auto_false_abstain_on_answerable": {
+    "n": 2,
+    "N": 15,
+    "rate": 0.1333
+  },
+  "note": "citation_ids_in_context chỉ kiểm tra ID; độ hỗ trợ thật và đúng/sai câu trả lời phải chấm tay trong reviews.json rồi tổng hợp bằng starter/agent_metrics.py",
+  "avg_context_chars": 1926.8,
+  "median_latency_s": 7.81,
+  "mean_latency_s": 10.86,
+  "llm_calls": 38,
+  "tokens": {
+    "input": 33590,
+    "output_incl_thoughts": 2666
+  },
+  "cost_usd": 0.0,
+  "cost_note": "giá giả định 0.0 USD/1M input, 0.0 USD/1M output (0 = gói miễn phí)"
+}
