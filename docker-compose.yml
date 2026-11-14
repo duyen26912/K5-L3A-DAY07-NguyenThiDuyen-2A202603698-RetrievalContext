@@ -1,0 +1,25 @@
+# Day 7 dùng lại vector store Day 6 (pgvector, volume đã ingest sẵn).
+# Port 55433 của Day 6 nằm trong dải Windows/WinNAT giữ chỗ (55346-55445), nên map sang 15433.
+# Volume là external: Day 7 không tạo index mới, chỉ đọc lại index Day 6.
+# Nếu máy chưa có volume này: chạy ingestion + `src.run --split dev` của repo Day 6 trước (xem README).
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.7-pg16
+    container_name: day7-pgvector
+    environment:
+      POSTGRES_DB: day6_lab
+      POSTGRES_USER: day6
+      POSTGRES_PASSWORD: day6_local_only
+    ports:
+      - "127.0.0.1:15433:5432"
+    volumes:
+      - day6_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U day6 -d day6_lab"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+volumes:
+  day6_pg_data:
+    external: true
+    name: day6_student_starter_pg_data
