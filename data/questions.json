@@ -1,0 +1,400 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Thời giờ làm việc bình thường tối đa là bao nhiêu giờ trong một ngày và một tuần?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 44,
+        "dieu": 105,
+        "evidence": "Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần."
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Tiền lương trong thời gian thử việc ít nhất phải bằng bao nhiêu phần trăm mức lương của công việc đó?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất bằng 85% mức lương của công việc đó.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 12,
+        "dieu": 26,
+        "evidence": "ít nhất phải bằng 85% mức lương của công việc đó"
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Làm đủ một năm cho công ty trong điều kiện bình thường thì được nghỉ phép có lương mấy ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "12 ngày làm việc (nghỉ hằng năm, hưởng nguyên lương).",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 47,
+        "dieu": 113,
+        "evidence": "a) 12 ngày làm việc đối với người làm công việc trong điều kiện bình thường;"
+      }
+    ],
+    "type": "dien_dat_lai"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Công việc yêu cầu trình độ cao đẳng trở lên thì được thử việc tối đa bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 60 ngày.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 11,
+        "dieu": 25,
+        "evidence": "2. Không quá 60 ngày đối với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên;"
+      }
+    ],
+    "type": "dieu_kien"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Làm thêm giờ vào ngày nghỉ hằng tuần thì được trả lương ít nhất bằng bao nhiêu phần trăm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất bằng 200%.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 42,
+        "dieu": 98,
+        "evidence": "b) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;"
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Tôi chuẩn bị cưới vợ thì được nghỉ mấy ngày mà vẫn được trả lương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Nghỉ 03 ngày, vẫn hưởng nguyên lương (nghỉ việc riêng), phải thông báo với người sử dụng lao động.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 48,
+        "dieu": 115,
+        "evidence": "a) Kết hôn: nghỉ 03 ngày;"
+      }
+    ],
+    "type": "dien_dat_lai"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Người lao động bị quấy rối tình dục tại nơi làm việc có phải báo trước khi đơn phương chấm dứt hợp đồng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không cần báo trước; bị quấy rối tình dục tại nơi làm việc là một trường hợp được đơn phương chấm dứt hợp đồng không cần báo trước.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 16,
+        "dieu": 35,
+        "evidence_all": [
+          "2. Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp sau đây:",
+          "d) Bị quấy rối tình dục tại nơi làm việc;"
+        ]
+      }
+    ],
+    "type": "ngoai_le"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Hợp đồng lao động xác định thời hạn có thời hạn tối đa bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 9,
+        "dieu": 20,
+        "evidence": "trong thời gian không quá 36 tháng kể từ thời điểm có hiệu lực của hợp đồng"
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Nghỉ làm không phép bao nhiêu ngày thì có thể bị công ty đuổi việc?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tự ý bỏ việc 05 ngày cộng dồn trong 30 ngày hoặc 20 ngày cộng dồn trong 365 ngày (tính từ ngày đầu tiên tự ý bỏ việc) mà không có lý do chính đáng thì có thể bị sa thải.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 52,
+        "dieu": 125,
+        "evidence": "4. Người lao động tự ý bỏ việc 05 ngày cộng dồn trong thời hạn 30 ngày hoặc 20 ngày cộng dồn trong thời hạn 365 ngày tính từ ngày đầu tiên tự ý bỏ việc mà không có lý do chính đáng."
+      }
+    ],
+    "type": "dien_dat_lai"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Lao động nữ được nghỉ thai sản bao lâu và được nghỉ trước khi sinh tối đa bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 57,
+        "dieu": 139,
+        "evidence": "1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá 02 tháng."
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Lao động nữ muốn đi làm lại trước khi hết thời gian nghỉ thai sản thì cần điều kiện gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Đã nghỉ ít nhất 04 tháng; phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 57,
+        "dieu": 139,
+        "evidence": "lao động nữ có thể trở lại làm việc khi đã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có xác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của người lao động"
+      }
+    ],
+    "type": "dieu_kien"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Lao động chưa thành niên là người lao động bao nhiêu tuổi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Người lao động chưa đủ 18 tuổi.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 58,
+        "dieu": 143,
+        "evidence": "1. Lao động chưa thành niên là người lao động chưa đủ 18 tuổi."
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Thời hiệu là bao lâu kể từ ngày xảy ra hành vi vi phạm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "06 tháng kể từ ngày xảy ra hành vi vi phạm; 12 tháng nếu hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 51,
+        "dieu": 123,
+        "evidence": "1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp hành vi vi phạm liên quan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động thì thời hiệu xử lý kỷ luật lao động là 12 tháng."
+      }
+    ],
+    "type": "metadata_filter",
+    "filter": {
+      "chuong": "VIII"
+    },
+    "filter_context": "Người dùng đang tra cứu Chương VIII (Kỷ luật lao động, trách nhiệm vật chất); câu hỏi dùng từ 'thời hiệu' chung, dễ nhầm với thời hiệu giải quyết tranh chấp ở Chương XIV."
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Thời hạn tối đa là bao lâu và được gia hạn mấy lần?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Giấy phép lao động có thời hạn tối đa 02 năm; chỉ được gia hạn một lần với thời hạn tối đa 02 năm.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 63,
+        "dieu": 155,
+        "evidence": "Thời hạn của giấy phép lao động tối đa là 02 năm, trường hợp gia hạn thì chỉ được gia hạn một lần với thời hạn tối đa là 02 năm."
+      }
+    ],
+    "type": "metadata_filter",
+    "filter": {
+      "chuong": "XI"
+    },
+    "filter_context": "Người dùng đang tra cứu Chương XI (người lao động nước ngoài, giấy phép lao động); không có filter thì dễ nhầm với thời hạn hợp đồng lao động ở Chương III."
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Tuổi nghỉ hưu trong điều kiện lao động bình thường được điều chỉnh đến bao nhiêu tuổi đối với nam và nữ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Đến đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 67,
+        "dieu": 169,
+        "evidence": "được điều chỉnh theo lộ trình cho đến khi đủ 62 tuổi đối với lao động nam vào năm 2028 và đủ 60 tuổi đối với lao động nữ vào năm 2035"
+      }
+    ],
+    "type": "truc_tiep"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Trong trường hợp thông thường, một năm người lao động được làm thêm tối đa bao nhiêu giờ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 200 giờ trong 01 năm (trừ một số ngành, nghề, trường hợp được làm thêm không quá 300 giờ).",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 45,
+        "dieu": 107,
+        "evidence": "c) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại khoản 3 Điều này."
+      }
+    ],
+    "type": "dieu_kien"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Nghỉ việc sau vài năm làm ở công ty thì mỗi năm làm việc được trả trợ cấp bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Người đã làm việc thường xuyên từ đủ 12 tháng trở lên được trợ cấp thôi việc mỗi năm làm việc một nửa tháng tiền lương (trừ trường hợp đủ điều kiện hưởng lương hưu và trường hợp tự ý bỏ việc tại điểm e khoản 1 Điều 36).",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 21,
+        "dieu": 46,
+        "evidence": "từ đủ 12 tháng trở lên, mỗi năm làm việc được trợ cấp một nửa tháng tiền lương"
+      }
+    ],
+    "type": "dien_dat_lai"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Người làm việc ban đêm được nghỉ giữa giờ ít nhất bao nhiêu phút?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất 45 phút liên tục (áp dụng khi làm việc từ 06 giờ trở lên trong một ngày).",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 46,
+        "dieu": 109,
+        "evidence": "làm việc ban đêm thì được nghỉ giữa giờ ít nhất 45 phút liên tục"
+      }
+    ],
+    "type": "dieu_kien"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Mỗi tháng người lao động bị khấu trừ tối đa bao nhiêu phần trăm tiền lương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 30% tiền lương thực trả hằng tháng sau khi trích nộp bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân.",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 43,
+        "dieu": 102,
+        "evidence": "3. Mức khấu trừ tiền lương hằng tháng không được quá 30% tiền lương thực trả hằng tháng của người lao động sau khi trích nộp các khoản bảo hiểm xã hội bắt buộc, bảo hiểm y tế, bảo hiểm thất nghiệp, thuế thu nhập cá nhân."
+      }
+    ],
+    "type": "metadata_filter",
+    "filter": {
+      "chuong": "VI"
+    },
+    "filter_context": "Người dùng đang tra cứu Chương VI (Tiền lương); không có filter thì dễ lấy nhầm Điều 129 (bồi thường thiệt hại, Chương VIII) vốn chỉ dẫn chiếu việc khấu trừ lương."
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Thời hiệu yêu cầu Tòa án giải quyết tranh chấp là bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền (và lợi ích) hợp pháp của mình bị vi phạm; áp dụng cho tranh chấp lao động cá nhân (Điều 190) và tranh chấp lao động tập thể về quyền (Điều 194).",
+    "gold": [
+      {
+        "source_id": "blld-2019",
+        "page": 79,
+        "dieu": 190,
+        "evidence": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động cá nhân là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền và lợi ích hợp pháp của mình bị vi phạm."
+      },
+      {
+        "source_id": "blld-2019",
+        "page": 81,
+        "dieu": 194,
+        "evidence": "3. Thời hiệu yêu cầu Tòa án giải quyết tranh chấp lao động tập thể về quyền là 01 năm kể từ ngày phát hiện ra hành vi mà bên tranh chấp cho rằng quyền hợp pháp của mình bị vi phạm."
+      }
+    ],
+    "type": "metadata_filter",
+    "filter": {
+      "chuong": "XIV"
+    },
+    "filter_context": "Người dùng đang tra cứu Chương XIV (Giải quyết tranh chấp lao động); không có filter thì dễ nhầm với thời hiệu xử lý kỷ luật lao động ở Chương VIII."
+  },
+    {
+    "id": "d16",
+    "split": "dev",
+    "question": "Mức lương tối thiểu vùng I hiện nay là bao nhiêu đồng một tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Điều 91 (trang 39) chỉ định nghĩa mức lương tối thiểu, nguyên tắc xác lập theo vùng và căn cứ điều chỉnh; con số cụ thể do Chính phủ công bố bằng nghị định riêng. Kiểm tra: tìm 'vùng I', 'đồng/tháng', '000 đồng' trong chunks.json đều 0 kết quả; 'lương tối thiểu' có 10 chunk nhưng không chunk nào nêu số tiền."
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Người lao động phải đóng bảo hiểm xã hội bắt buộc bao nhiêu phần trăm tiền lương mỗi tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Bộ luật chỉ nhắc nghĩa vụ tham gia bảo hiểm xã hội và dẫn chiếu sang pháp luật về bảo hiểm xã hội; tỷ lệ đóng thuộc Luật Bảo hiểm xã hội. Kiểm tra: tìm 'tỷ lệ đóng', 'mức đóng', '8%', '17,5' trong chunks.json đều 0 kết quả."
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Người lao động mất việc được hưởng trợ cấp thất nghiệp hằng tháng bằng bao nhiêu phần trăm tiền lương?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mức hưởng trợ cấp thất nghiệp thuộc Luật Việc làm, không có trong Bộ luật Lao động 2019. Kiểm tra: tìm 'trợ cấp thất nghiệp' và '60%' trong chunks.json đều 0 kết quả; 'bảo hiểm thất nghiệp' có 16 chunk nhưng chỉ nói nghĩa vụ tham gia hoặc trừ thời gian khi tính trợ cấp thôi việc/mất việc. Bẫy: agent có thể nhầm với trợ cấp mất việc làm (Điều 47)."
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "Khi nghỉ ốm, người lao động được hưởng chế độ ốm đau tối đa bao nhiêu ngày trong một năm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Số ngày hưởng chế độ ốm đau thuộc Luật Bảo hiểm xã hội. Kiểm tra: tìm 'ốm đau' trong chunks.json có 4 chunk (trang 16, 18, 51, 57) nhưng chỉ nói về chấm dứt hợp đồng, cấm đơn phương chấm dứt, cấm xử lý kỷ luật khi nghỉ ốm và chăm sóc con ốm; không chunk nào nêu số ngày hưởng chế độ. Bẫy: agent có thể lấy nhầm '12 tháng liên tục' ở Điều 36."
+  }
+]
+

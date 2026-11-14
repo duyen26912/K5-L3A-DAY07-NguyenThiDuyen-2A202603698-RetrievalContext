@@ -1,0 +1,43 @@
+{
+  "vector_store": "PostgreSQL 16 + pgvector 0.8.7 (Docker, exact cosine search, không ANN index)",
+  "table": "chunks",
+  "strategy": "B",
+  "chunks_per_strategy": {
+    "A": 457,
+    "B": 574
+  },
+  "pages": 93,
+  "embedding": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "stored_dimensions": 384,
+    "reembed_cosine_sample": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "probe_query": "Thời giờ làm việc bình thường tối đa bao nhiêu giờ một ngày?",
+    "probe_top3": [
+      {
+        "id": "blld-2019:p044:para500:c01",
+        "page": 44,
+        "score": 0.7868
+      },
+      {
+        "id": "blld-2019:p046:para500:c00",
+        "page": 46,
+        "score": 0.7475
+      },
+      {
+        "id": "blld-2019:p046:para500:c03",
+        "page": 46,
+        "score": 0.7291
+      }
+    ]
+  },
+  "evidence_check": {
+    "ok": 21,
+    "total": 21,
+    "failed": []
+  }
+}
